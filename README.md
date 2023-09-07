@@ -1,4 +1,4 @@
-# Inventare Bitcoin
+# Inventiamo Bitcoin
 Traduzione Italiana di Inventing Bitcoin di Yan Pritzker
 
 Opera originale: [Yan Pritzker](https://twitter.com/skwp)
@@ -24,12 +24,12 @@ Donazioni: https://getalby.com/p/loop
 
 | Capitolo | Titolo                                                       | Titolo Originale           |
 | -------- | ------------------------------------------------------------ | -------------------------- |
-| 1        |  | What is Bitcoin? |
-| 2        |  | Removing the Middleman |
-| 3        |  | Proof of Work |
-| 4        |  | Mining |
-| 5        |  | Securing The Ledger |
-| 6        |  | Forks and 51% Attacks |
-| 7        |  | Accounts Without Identity |
-| 8        |  | Who Makes the Rules? |
-| 9        |  | What's Next |
+| 1        | Che cos'è Bitcoin? | What is Bitcoin? |
+| 2        | Eliminare l'intermediario | Removing the Middleman |
+| 3        | Prova di lavoro | Proof of Work |
+| 4        | Mining | Mining |
+| 5        | Proteggere il libro mastro | Securing The Ledger |
+| 6        | Fork e attacchi 51% | Forks and 51% Attacks |
+| 7        | Conti senza identità | Accounts Without Identity |
+| 8        | Chi fa le regole? | Who Makes the Rules? |
+| 9        | Che cosa accadrà in futuro | What's Next |
