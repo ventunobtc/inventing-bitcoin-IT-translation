@@ -28,7 +28,7 @@ Donazioni: https://getalby.com/p/loop
 | 2        | [Eliminare l'intermediario](chapters/ch002-eliminare-l-intermediario.md) | Removing the Middleman |
 | 3        | [Prova di lavoro](chapters/ch003-prova-di-lavoro.md) | Proof of Work |
 | 4        | [Mining](chapters/ch004-mining.md) | Mining |
-| 5        | [Proteggere il libro mastro](ch005-proteggere-il-libro-mastro.md) | Securing The Ledger |
+| 5        | [Proteggere il libro mastro](chapters/ch005-proteggere-il-libro-mastro.md) | Securing The Ledger |
 | 6        | [Fork e attacchi 51%](chapters/ch006-fork-e-attacchi-51%.md) | Forks and 51% Attacks |
 | 7        | [Conti senza identità](chapters/ch007-conti-senza-identita.md) | Accounts Without Identity |
 | 8        | [Chi fa le regole?](chapters/ch008-chi-fa-le-regole.md) | Who Makes the Rules? |
