@@ -192,7 +192,6 @@ Abbiamo quasi completato l'invenzione di Bitcoin:
 
 Nessun organismo centrale. Abbiamo un sistema completamente distribuito e decentralizzato. Abbiamo quasi l'intero quadro della situazione. Rimane un problema. Quando qualcuno si unisce alla rete e chiede di avere copie del libro mastro, può ottenere storie diverse del libro mastro da nodi diversi. Come possiamo imporre una cronologia unica e lineare e come possiamo impedire ai minatori di riscrivere il passato?
 
-***
 [^1] Il periodo di aggiustamento di 2016 blocchi è stato scelto in base all'intervallo di blocco di dieci minuti desiderato. 10 minuti x 2016 blocchi sono due settimane. L'intervallo di blocco è stato scelto da Satoshi in modo arbitrario per essere abbastanza grande da permettere alla maggior parte dei nodi di sincronizzarsi con l'ultimo blocco. Anche il periodo di aggiustamento di due settimane è stato scelto in modo piuttosto arbitrario, ma è stato progettato per evitare che il sistema possa essere sfruttato a causa di variazioni troppo rapide del tasso di hash.
 
 [^2] Per saperne di più sullo stato attuale del mining, consultare il sito https://bitcoinminingcouncil.com/ (N.d.T.: l'autore originariamente suggeriva il sito https://coinshares.co.uk che, ad oggi, è molto meno aggiornato).

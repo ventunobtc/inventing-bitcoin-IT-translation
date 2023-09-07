@@ -129,7 +129,6 @@ Sempre più soluzioni di custodia parziale stanno nascendo da aziende come Casa 
 
 Si tratta di un fenomeno profondo e di portata mondiale. Mai prima d'ora è stato possibile detenere o muovere il proprio patrimonio proteggendolo completamente da sequestri o furti.
 
-***
 [^1]: L'ispirazione per questa sezione è venuta da un eccellente post di Medium che illustra in dettaglio le probabilità di una serie di eventi. Raccomando di leggere l'intero post per capire il contesto: <https://medium.com/@kerbleski/a-dance-with-infinity-980bd8e9a781>
 
 [^2]: <https://en.bitcoin.it/wiki/CoinJoin>

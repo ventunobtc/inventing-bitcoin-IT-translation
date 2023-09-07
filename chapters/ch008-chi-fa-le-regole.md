@@ -88,8 +88,6 @@ Considerando le migliaia di cloni di Bitcoin che sono stati creati, nessuno dei 
 
 La natura decentralizzata dell'ecosistema Bitcoin crea una forte preferenza per lo status quo. I grandi cambiamenti richiedono mesi o anni di creazione del consenso, discussioni e revisioni tra pari per essere implementati. Questa è una buona cosa, e qualcosa che dovremmo volere da un sistema che punta a diventare una moneta globale. Bitcoin è una danza delicata tra migliaia di partecipanti, che agiscono tutti in modo egoistico, spesso con esigenze contrastanti. È un sistema anarchico e di libero mercato, senza nessuno in particolare al comando.
 
-
-***
 [^1]: Per saperne di più su come viene gestito il processo di sviluppo di Bitcoin Core, leggere *Chi controlla Bitcoin Core? * di Jameson Lopp: https://medium.com/\@lopp/who-controls-bitcoin-core-c55c0af91b8a
 
 [^2]: Una storia completa dei fork che hanno cambiato le regole di Bitcoin è descritta qui <https://blog.bitmex.com/bitcoins-consensus-forks/>

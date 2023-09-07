@@ -139,6 +139,5 @@ Nel corso del tempo, sempre più persone si sono unite alla rete, utilizzando i 
 
 Scopriamo come costruire questo sistema!
 
-***
 [^1]: Per un'ottima panoramica della storia monetaria, consiglio il saggio *Shelling Out* di Nick Szabo: <https://nakamotoinstitute.org/shelling-out/>
 

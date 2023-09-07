@@ -127,6 +127,5 @@ Gran parte dell'ecosistema Bitcoin vive su Twitter. Ecco una manciata di persone
 
 Potete trovare altri miei scritti su [yanpritzker.com](http://yanpritzker.com). Ci vediamo dall'altra parte.
 
-***
 [^1]: Scopri di più sul cosiddetto fork *Segwit2X* che era stato pianificato attraverso accordi segreti e successivamente interrotto: <https://bitcoinmagazine.com/articles/now-segwit2x-hard-fork-has-really-failed-activate>
 
