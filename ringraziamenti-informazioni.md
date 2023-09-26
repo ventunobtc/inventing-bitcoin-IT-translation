@@ -12,7 +12,7 @@ Yan è il cofondatore e CTO di Swan Bitcoin, una semplice piattaforma di accesso
 
 Yan scrive su Bitcoin e argomenti correlati su yanpritzker.com.
 
-Puoi seguirlo anche su Twitter: \@skwp.
+Puoi seguirlo anche su Twitter: [ \@skwp](https://twitter.com/skwp)
 
 ### Informazioni sul traduttore
 

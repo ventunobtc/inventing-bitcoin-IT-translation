@@ -3,7 +3,9 @@ Traduzione Italiana di Inventing Bitcoin di Yan Pritzker
 
 Opera originale: [Yan Pritzker](https://twitter.com/skwp)
 
-Traduzione italiana: [Loop](https://loop-btc.github.io/) ([@loop_btc](https://twitter.com/loop_btc))
+Introduzione alla Traduzione Italiana: [Marco Amadori](https://bitcoinvalley.eu) ([@mammadori](https://twitter.com/mammadori))
+
+Traduzione Italiana: [Loop](https://loop-btc.github.io/) ([@loop_btc](https://twitter.com/loop_btc))
 
 Revisione: 
 
@@ -14,7 +16,7 @@ Donazioni: https://getalby.com/p/loop
 
 ## Introduzione alla Traduzione Italiana
 
-[Introduzione alla Traduzione Italiana]() 
+[Introduzione alla Traduzione Italiana](introduzione-traduzione-italiana.md) di Marco Amadori 
 
 ## Introduzione
 
