@@ -16,9 +16,7 @@ Prima di Bitcoin, infatti, molti potevano pensare alla gerarchia o al fatto che 
 
 In questo testo il romanticismo e la critica sociale, pur presenti nel paper originale di Satoshi Nakamoto del 2008, sono ridotti all’osso per lasciare spazio, senza disorientare, alla giusta quantità di nozioni tecniche che servono per capire come e perché Bitcoin funzioni.
 
-L’unico consiglio che mi sento di dare al lettore, soprattutto allo scettico che cerca la falla o il bug nel sistema Bitcoin, o a chi già conosce molto bene alcune parti tecniche per motivi pregressi, è di leggere questo libro tutto d’un fiato evitando di soffermarsi ad immaginare problematiche derivate da quanto appreso fino quel punto. 
-Soprattutto su Bitcoin, infatti, è difficilissimo semplificare senza commettere qualche leggerezza. “Inventing Bitcoin” accompagna il lettore tramite alcune metafore esplicative e semplificazioni importanti e pur essendoci avvertenze nel testo da parte dell’autore a sospendere il giudizio finché chiarezza non verrà fatta più avanti nel testo, è molto facile per il lettore scambiare per evidenti errori, o contraddizioni con alcune teorie economiche od informatiche preesistenti, la spiegazione mentre si sta dipanando.
-Il mio consiglio in sostanza è: “Non scambiate le metafore esplicative per metafore predittive”; seguendolo arriverete sani e salvi alla fine di questo affascinante viaggio di scoperta.
+L’unico consiglio che mi sento di dare al lettore, soprattutto allo scettico che cerca la falla o il bug nel sistema Bitcoin, o a chi già conosce molto bene alcune parti tecniche per motivi pregressi, è di leggere questo libro tutto d’un fiato evitando di soffermarsi ad immaginare problematiche derivate da quanto appreso fino quel punto. Soprattutto su Bitcoin, infatti, è difficilissimo semplificare senza commettere qualche leggerezza. “Inventing Bitcoin” accompagna il lettore tramite alcune metafore esplicative e semplificazioni importanti e pur essendoci avvertenze nel testo da parte dell’autore a sospendere il giudizio finché chiarezza non verrà fatta più avanti nel testo, è molto facile per il lettore scambiare per evidenti errori, o contraddizioni con alcune teorie economiche od informatiche preesistenti, la spiegazione mentre si sta dipanando. Il mio consiglio in sostanza è: “Non scambiate le metafore esplicative per metafore predittive”; seguendolo arriverete sani e salvi alla fine di questo affascinante viaggio di scoperta.
 
 Quello che invece non è “Inventing Bitcoin” è che non è un libro sufficiente, non per tutti comunque, e non è esaustivo. Pur affrontando il passato ed il presente di Bitcoin, dandoci tracce credibili di futuro, non affronta tutto quello che c’è da sapere; ma non è detto che questo sia un problema, anzi! Il contenuto agile e la dimensione non esagerata riescono a fornire un’ottima base di partenza, solida, tecnica, storica e metodologica, per chi volesse ulteriormente approfondire l’argomento.
 
@@ -28,6 +26,4 @@ Se dovete, volete o potete leggere un solo libro su Bitcoin e poi nient'altro, l
 [@mammadori](https://twitter.com/mammadori)
 [bitcoinvalley.eu](https://bitcoinvalley.eu)
 
-
 [^1] (http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html)
-
