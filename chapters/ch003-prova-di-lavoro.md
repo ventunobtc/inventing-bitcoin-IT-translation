@@ -13,7 +13,7 @@ Se vogliamo un sistema *senza permessi* a cui chiunque possa aderire, allora dob
 
 ## Prova di lavoro: un puzzle asimmetrico ad alta intensità energetica
 
-La soluzione elegante a tutti e tre questi problemi si chiama Prova di Lavoro. In realtà [è stata inventata molto prima di Bitcoin, nel 1993](https://it.wikipedia.org/wiki/Proof-of-work). La spiegazione completa di come funziona questa lotteria è probabilmente la cosa più difficile da capire di Bitcoin, quindi dedicheremo i prossimi capitoli a trattare la soluzione in modo approfondito.
+La soluzione elegante a tutti e tre questi problemi si chiama Prova di Lavoro. In realtà è stata inventata molto prima di Bitcoin, nel 1993. La spiegazione completa di come funziona questa lotteria è probabilmente la cosa più difficile da capire di Bitcoin, quindi dedicheremo i prossimi capitoli a trattare la soluzione in modo approfondito.
 
 Dobbiamo rendere costoso "acquistare i biglietti" della lotteria, altrimenti le persone riuscirebbero a generare un numero illimitato di biglietti. Quale soluzione è in grado di garantire un costo elevato, ma senza dipendere da un'autorità centrale?
 
@@ -41,13 +41,13 @@ Come fanno i partecipanti a dimostrare di aver consumato questa energia? È nece
 
 ## Hashing
 
-Il puzzle asimmetrico della prova di lavoro di Bitcoin prevede l'utilizzo di una [*funzione di hash*](https://it.wikipedia.org/wiki/Funzione_di_hash) (N.d.T.: dal verbo inglese *to hash*: sminuzzare, pasticciare). Grazie all'algebra di base, sappiamo che una funzione è una scatola in cui si inserisce un *input* pari a *x* e si ottiene un *output* pari a *f(x)*. Ad esempio, la funzione *f(x)=2x* prende un valore e lo moltiplica per due. Quindi l'input *x=2* ci dà l'output *f(x)=4*. 
+Il puzzle asimmetrico della prova di lavoro di Bitcoin prevede l'utilizzo di una *funzione di hash* (N.d.T.: dal verbo inglese *to hash*: sminuzzare, pasticciare). Grazie all'algebra di base, sappiamo che una funzione è una scatola in cui si inserisce un *input* pari a *x* e si ottiene un *output* pari a *f(x)*. Ad esempio, la funzione *f(x)=2x* prende un valore e lo moltiplica per due. Quindi l'input *x=2* ci dà l'output *f(x)=4*. 
 
 Una funzione *hash* è una funzione speciale in cui si inserisce una qualsiasi stringa di lettere, numeri o altri dati, come "Hello world", e si ottiene un numero gigantesco dall'aspetto casuale:
 
 > 86991366044392467661783165166973309023807181648024718778313526389892860994842
 
-La particolare funzione di *hash* che ho utilizzato per l'*hash* di "Hello world" si chiama [sha256](https://en.wikipedia.org/wiki/SHA-2) e si dà il caso che sia quella utilizzata da Bitcoin.
+La particolare funzione di *hash* che ho utilizzato per l'*hash* di "Hello world" si chiama *SHA-256* e si dà il caso che sia quella utilizzata da Bitcoin.
 
 ![Sha256](images/sha256.png)
 *I dati entrano da una parte, dall'altra escono numeri giganteschi e imprevedibili.
@@ -97,7 +97,7 @@ Lo scopo è dimostrare come il numero cambi drasticamente in seguito a una picco
 > Hello world!!<br>
 > 84940227720695898955447627108840424364390283616735576803008868844073193772558
 
-Non c'è modo per nessuno, nemmeno per un computer, di guardare il numero casuale risultante e capire la stringa che lo ha creato. Se volete giocare con sha256, potete provarlo su [https://passwordsgenerator.net/sha256-hash-generator](https://passwordsgenerator.net/sha256-hash-generator/).
+Non c'è modo per nessuno, nemmeno per un computer, di guardare il numero casuale risultante e capire la stringa che lo ha creato. Se volete giocare con sha256, potete provarlo su <https://passwordsgenerator.net/sha256-hash-generator>.
 
 ## Hashing per vincere la lotteria della prova di lavoro
 

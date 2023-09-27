@@ -80,7 +80,7 @@ Se vogliamo creare un sistema *senza permessi* in cui chiunque possa partecipare
 
 ## Risolvere il problema del consenso distribuito
 
-Ora si tratta di risolvere uno dei problemi più difficili dell'informatica: il consenso distribuito tra soggetti che sono in parte disonesti o inaffidabili. Questo problema è noto come [Problema dei generali bizantini](https://it.wikipedia.org/wiki/Problema_dei_generali_bizantini) ed è la chiave che Satoshi Nakamoto ha usato per rendere possibile l'invenzione di Bitcoin. Dobbiamo fare in modo che un gruppo di persone sia d'accordo sulle voci del libro mastro senza sapere quali custodi del libro mastro abbiano annotato tutte le transazioni in modo corretto e onesto.
+Ora si tratta di risolvere uno dei problemi più difficili dell'informatica: il consenso distribuito tra soggetti che sono in parte disonesti o inaffidabili. Questo problema è noto come *Problema dei generali bizantini* ed è la chiave che Satoshi Nakamoto ha usato per rendere possibile l'invenzione di Bitcoin. Dobbiamo fare in modo che un gruppo di persone sia d'accordo sulle voci del libro mastro senza sapere quali custodi del libro mastro abbiano annotato tutte le transazioni in modo corretto e onesto.
 
 Una soluzione ingenua è semplicemente quella di nominare dei custodi onesti del libro mastro. Invece di far scrivere tutti sul registro, scegliamo una manciata di amici come Carlotta, Mario, Franco e Sonia, perché non dicono bugie e tutti sanno che non fanno mai baldoria nei fine settimana.
 
@@ -101,7 +101,7 @@ Abbiamo un problema. Ogni volta che nominiamo persone specifiche per la gestione
 
 ## Identità errata e attacchi Sybil
 
-Finora abbiamo esaminato due metodi fallimentari per garantire l'onestà: uno utilizzava dei custodi del libro mastro specifici e conosciuti, mentre l'altro utilizzava custodi del libro mastro eletti a rotazione. Il fallimento di entrambi i sistemi era dovuto al fatto che la base della nostra fiducia era legata all'identità del mondo reale: dovevamo identificare specificamente gli individui che sarebbero stati responsabili del nostro libro mastro. Ogni volta che assumiamo una fiducia basata sull'identità, ci esponiamo a qualcosa chiamato [attacco Sybil](https://it.wikipedia.org/wiki/Attacco_di_Sybil). Si tratta di un nome di fantasia ispirato all'impersonificazione; prende il nome da una donna affetta da disturbo di personalità multipla.
+Finora abbiamo esaminato due metodi fallimentari per garantire l'onestà: uno utilizzava dei custodi del libro mastro specifici e conosciuti, mentre l'altro utilizzava custodi del libro mastro eletti a rotazione. Il fallimento di entrambi i sistemi era dovuto al fatto che la base della nostra fiducia era legata all'identità del mondo reale: dovevamo identificare specificamente gli individui che sarebbero stati responsabili del nostro libro mastro. Ogni volta che assumiamo una fiducia basata sull'identità, ci esponiamo a qualcosa chiamato *attacco Sybil*. Si tratta di un nome di fantasia ispirato all'impersonificazione; prende il nome da una donna affetta da disturbo di personalità multipla.
 
 Avete mai ricevuto uno strano messaggio da un vostro amico per poi scoprire che il suo telefono era stato hackerato? Quando ci sono in gioco miliardi o addirittura trilioni di dollari, le persone giustificano ogni tipo di violenza per rubare quel telefono e inviare quel messaggio. È assolutamente necessario evitare che le persone che custodiscono il nostro libro mastro vengano costrette in qualche modo. Come possiamo farlo?
 

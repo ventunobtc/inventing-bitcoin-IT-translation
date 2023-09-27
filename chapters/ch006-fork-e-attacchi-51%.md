@@ -22,7 +22,7 @@ Le *mining pool* hanno causato un certo effetto di centralizzazione: gli utenti 
 
 In effetti, ci sono precedenti storici di singoli minatori che abbandonano una *pool* troppo potente. Nel 2014, Ghash.io aveva quasi la metà della potenza di *mining* totale. I minatori hanno visto che il *mining* stava diventando troppo centralizzato e hanno volontariamente optato per altre *pool*. 
 
-Nonostante le *mining pool* relativamente centralizzate siano una realtà odierna, vengono apportati costanti miglioramenti alla tecnologia di *mining*, tra cui una proposta chiamata [BetterHash] (https://github.com/TheBlueMatt/bips/blob/betterhash/bip-XXXX.mediawiki), che consente ai singoli minatori di avere un maggiore controllo su ciò che estraggono e di ridurre la dipendenza dal coordinamento delle *pool*.
+Nonostante le *mining pool* relativamente centralizzate siano una realtà odierna, vengono apportati costanti miglioramenti alla tecnologia di *mining*, tra cui una proposta chiamata BetterHash, che consente ai singoli minatori di avere un maggiore controllo su ciò che estraggono e di ridurre la dipendenza dal coordinamento delle *pool*.
 
 ## Attacchi del 51%
 
@@ -44,7 +44,7 @@ Oltre all'estrazione di blocchi vuoti, cosa che rende la catena inutilizzabile, 
 3. In un secondo momento, diffondi una catena minata segretamente che non contiene l'invio all'*exchange*.
 4. Hai riscritto la storia e ora possiedi sia i bitcoin originali che gli euro.
 
-Il consumo energetico dell'*hash rate* di Bitcoin oggi è all'incirca equivalente a quello di un paese di discrete dimensioni. Acquisire hardware ed elettricità sufficienti per eseguire un attacco di questo tipo è estremamente costoso. Secondo le stime, oggi un attacco del 51% costerebbe all'incirca 700.000 dollari all'ora e il costo è in continuo aumento (N.d.T.: più di 1.100.000 dollari all'ora nel momento in cui sto traducendo). Questa stima non tiene conto della reazione a questo attacco da parte dei minatori onesti, che probabilmente lo renderebbe ancora più costoso. È possibile esaminare qual è il costo per attaccare Bitcoin e altre criptovalute su [https://www.crypto51.app].
+Il consumo energetico dell'*hash rate* di Bitcoin oggi è all'incirca equivalente a quello di un paese di discrete dimensioni. Acquisire hardware ed elettricità sufficienti per eseguire un attacco di questo tipo è estremamente costoso. Secondo le stime, oggi un attacco del 51% costerebbe all'incirca 700.000 dollari all'ora e il costo è in continuo aumento (N.d.T.: più di 1.100.000 dollari all'ora nel momento in cui sto traducendo). Questa stima non tiene conto della reazione a questo attacco da parte dei minatori onesti, che probabilmente lo renderebbe ancora più costoso. È possibile esaminare qual è il costo per attaccare Bitcoin e altre criptovalute su <https://www.crypto51.app>.
 
 È inoltre molto difficile riuscire a portare a termine un attacco di queste proporzioni con una doppia spesa senza lasciare dietro di sé impronte che possono essere utilizzate per capire chi sei. Dopo tutto, per eseguire l'attacco dovresti consumare l'energia di un paese di medie dimensioni e acquistare milioni di dollari in hardware, oltre a effettuare con gli *exchange* transazioni per milioni di dollari.
 

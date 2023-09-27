@@ -23,7 +23,7 @@ Nella prossima sezione approfondiremo le motivazioni alla base di Bitcoin.
 
 ## Come è nato?
 
-Bitcoin è stato inventato da una persona o un gruppo noto con lo pseudonimo di [Satoshi Nakamoto](https://it.wikipedia.org/wiki/Satoshi_Nakamoto) intorno al 2008. Nessuno conosce l'identità di questa persona o di questo gruppo, e per quanto ne sappiamo, sono spariti e non se ne hanno notizie da anni.
+Bitcoin è stato inventato da una persona o un gruppo noto con lo pseudonimo di Satoshi Nakamoto intorno al 2008. Nessuno conosce l'identità di questa persona o di questo gruppo, e per quanto ne sappiamo, sono spariti e non se ne hanno notizie da anni.
 
 L'11 febbraio 2009, Satoshi ha scritto di una prima versione di Bitcoin su un forum online per *cypherpunks*, persone che lavorano su crittografia e si dedicano alla privacy e alla libertà individuale. Sebbene questo non sia il primo annuncio ufficiale del rilascio di Bitcoin, contiene un buon riassunto delle motivazioni di Satoshi, quindi lo useremo per gettare le basi della nostra discussione.
 
@@ -39,7 +39,7 @@ Le parti rilevanti sono estratte di seguito. Nella prossima sezione, esamineremo
 >
 > È il momento di fare la stessa cosa per il denaro. Con una moneta elettronica basata sulla prova crittografica, senza la necessità di fidarsi di un intermediario di terze parti, il denaro può essere sicuro e le transazioni possono essere effettuate senza difficoltà. \[...\]
 >
-> La soluzione di Bitcoin consiste nell'utilizzare una rete peer-to-peer per rilevare eventuali doppie spese. In poche parole, la rete funziona come un server distribuito di timestamp (N.d.T.: marcatura temporale), che contrassegna la prima transazione che spende una moneta. Sfrutta la natura dell'informazione di essere facile da diffondere ma difficile da limitare. Per i dettagli sul suo funzionamento, si veda il documento di progettazione all'indirizzo [[https://bitcoin.org/files/bitcoin-paper/bitcoin_it.pdf]](http://www.bitcoin.org/bitcoin.pdf).
+> La soluzione di Bitcoin consiste nell'utilizzare una rete peer-to-peer per rilevare eventuali doppie spese. In poche parole, la rete funziona come un server distribuito di *timestamp* (N.d.T.: in italiano *marcatura temporale*), che contrassegna la prima transazione che spende una moneta. Sfrutta la natura dell'informazione di essere facile da diffondere ma difficile da limitare. Per i dettagli sul suo funzionamento, si veda il documento di progettazione all'indirizzo <https://bitcoin.org/files/bitcoin-paper/bitcoin_it.pdf>
 >
 > Satoshi Nakamoto
 
@@ -95,7 +95,7 @@ I nostri attuali sistemi di protezione del denaro, come il deposito in banca, si
 
 A chi vive negli Stati Uniti, o in un'altra economia altamente regolamentata, potrebbe sembrare assurdo pensare di svegliarsi con i propri soldi volatilizzati, ma succede di continuo. Mi è capitato di vedermi congelare i fondi da PayPal semplicemente perché non usavo il mio conto da mesi. Mi ci è voluta più di una settimana per ottenere il ripristino dell'accesso al "mio" denaro. Sono fortunato a vivere negli Stati Uniti, dove potrei quantomeno sperare di ottenere un risarcimento legale se PayPal bloccasse i miei fondi, e dove nutro un minimo di fiducia nel fatto che il mio governo e la mia banca non mi derubino.
 
-In Paesi con meno libertà sono accadute, e stanno accadendo, cose ben peggiori, come [la chiusura delle banche durante i crolli valutari](https://www.nbcnews.com/business/business-news/greece-crisis-banks-shut-week-restrictions-imposed-atms-n383606) in Grecia, le banche di Cipro che propongono salvataggi bancari attraverso la confisca dei fondi dei loro clienti, o [il governo che dichiara senza valore alcune banconote](https://www.washingtonpost.com/world/asia_pacific/india-invalidates-large-bank-notes-in-crackdown-on-crime/2016/11/08/cc705ee2-a5c6-11e6-ba46-53db57f0e351_story.html?utm_term=.7951cf519c00) in India.
+In paesi con meno libertà sono accadute, e stanno accadendo, cose ben peggiori, come la chiusura delle banche durante i crolli valutari in Grecia, le banche di Cipro che propongono salvataggi bancari attraverso la confisca dei fondi dei loro clienti, o il governo che dichiara senza valore alcune banconote in India.
 
 L'ex URSS, dove sono cresciuto, aveva un'economia controllata dal governo che portava a una massiccia carenza di beni. Era illegale possedere valute straniere come il dollaro statunitense. Quando volevamo andarcene, potevamo cambiare in dollari statunitensi solo una quantità limitata di denaro per persona, in base a un tasso di cambio ufficiale imposto dal governo che si discostava notevolmente dal vero tasso del libero mercato. Di fatto, il governo ci ha privato di quel poco di ricchezza che avevamo, mantenendo un controllo ferreo sull'economia e sulla circolazione dei capitali.
 
@@ -103,7 +103,7 @@ I paesi autocratici tendono ad attuare rigidi controlli economici, impedendo all
 
 Bitcoin non si basa sulla fiducia in una terza parte per proteggere il tuo denaro. Al contrario, Bitcoin rende le tue monete *impossibili da accedere per gli altri* senza una chiave speciale che solo tu possiedi, *per qualsiasi motivo, a prescindere dalla scusa, senza eccezioni*. Detenendo Bitcoin, hai le chiavi della tua libertà finanziaria. Bitcoin separa il denaro e lo Stato.
 
-> La soluzione di Bitcoin consiste nell'utilizzare una rete peer-to-peer per rilevare eventuali doppie spese. \[...\] come un server distribuito di timestamp (N.d.T.: marcatura temporale), che contrassegna la prima transazione che spende una moneta.
+> La soluzione di Bitcoin consiste nell'utilizzare una rete peer-to-peer per rilevare eventuali doppie spese. \[...\] come un server distribuito di *timestamp*, che contrassegna la prima transazione che spende una moneta.
 
 Il concetto di *rete* si riferisce all'idea che un gruppo di computer sia interconnesso e possa inviare messaggi l'uno all'altro. La parola *distribuito* significa che non c'è una parte centrale che esercita il controllo, ma piuttosto che tutti i partecipanti si coordinano per far sì che la rete abbia successo.
 

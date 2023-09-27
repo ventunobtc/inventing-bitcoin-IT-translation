@@ -65,7 +65,7 @@ Una chiave privata ha 256 bit, ovvero 2^256 o circa 10^77. Indovinare l'intera c
 
 > Una possibilità su 115.792.089.237.316.195.423.570.985.008.687.907.853.269.984.665.640.564.039.457.584.007.913.129.639.936
 
-Ma cosa accadrebbe se avessi un computer super potente per provare a indovinare? Non posso rendere giustizia a questo argomento più di quanto non faccia [il post su Reddit all'indirizzo https://bit.ly/2Dbw9Qd](https://bit.ly/2Dbw9Qd), che ti consiglio di leggere per intero. Sebbene sia molto tecnico, il paragrafo finale rende bene l'idea di cosa si dovrebbe fare per elencare tutte le possibili chiavi a 256 bit:
+Ma cosa accadrebbe se avessi un computer super potente per provare a indovinare? Non posso rendere giustizia a questo argomento più di quanto non faccia il post su Reddit all'indirizzo <https://bit.ly/2Dbw9Qd>, che ti consiglio di leggere per intero. Sebbene sia molto tecnico, il paragrafo finale rende bene l'idea di cosa si dovrebbe fare per elencare tutte le possibili chiavi a 256 bit:
 
 > "Quindi, se si potesse usare l'intero pianeta come disco rigido, memorizzando 1 byte per ogni atomo, usando le stelle come combustibile e provando 1 trilione di chiavi al secondo, servirebbero 37 ottilioni di Terre per memorizzarle e 237 miliardi di stelle per alimentare il dispositivo in grado di farlo, e tutto ciò richiederebbe 3,6717 ottilioni di anni".
 > 
@@ -106,11 +106,11 @@ Poiché la chiave privata è l'unica cosa di cui hai bisogno per spendere le tue
 
 Le chiavi private sono anche soggette a perdita. Se si memorizza il wallet sul proprio computer e questo viene rubato o prende fuoco, è un problema. Se si seguono le migliori pratiche di Bitcoin, che prevedono la generazione di un nuovo indirizzo ogni volta che si ricevono pagamenti, la conservazione sicura e il backup di queste chiavi private diventano in poco tempo un'operazione piuttosto onerosa.
 
-Nel corso del tempo, l'ecosistema Bitcoin ha sviluppato una serie di soluzioni a questo problema. Nel 2012 è stato proposto [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) (*Bitcoin Improvement Proposal*, un meccanismo per diffondere idee su come migliorare Bitcoin) per generare dei wallet gerarchici deterministici. L'idea di fondo è che, utilizzando un solo numero casuale chiamato *seed* (N.d.T.: in inglese, seme), si possano generare continuamente molte coppie di chiavi che rappresentano gli indirizzi bitcoin e le relative chiavi private.
+Nel corso del tempo, l'ecosistema Bitcoin ha sviluppato una serie di soluzioni a questo problema. Nel 2012 è stato proposto BIP32 (*Bitcoin Improvement Proposal*, un meccanismo per diffondere idee su come migliorare Bitcoin) per generare dei wallet gerarchici deterministici. L'idea di fondo è che, utilizzando un solo numero casuale chiamato *seed* (N.d.T.: in italiano *seme*), si possano generare continuamente molte coppie di chiavi che rappresentano gli indirizzi bitcoin e le relative chiavi private.
 
 Al giorno d'oggi, attraverso i software o hardware wallet comunemente disponibili, vengono generate automaticamente nuove chiavi per ogni transazione, consentendo all'utente di eseguire il backup di una sola *master key* (N.d.T: in inglese, chiave principale).
 
-Nel 2013 è stato introdotto [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) per rendere ancora più semplice il backup delle chiavi. Invece di utilizzare un numero casuale, le chiavi vengono generate da un insieme casuale di parole leggibili dall'uomo (N.d.T.: solitamente 12 o 24 parole inglesi). Ecco un esempio di *seed* BIP39:
+Nel 2013 è stato introdotto BIP39 per rendere ancora più semplice il backup delle chiavi. Invece di utilizzare un numero casuale, le chiavi vengono generate da un insieme casuale di parole leggibili dall'uomo (N.d.T.: solitamente 12 o 24 parole inglesi). Ecco un esempio di *seed* BIP39:
 
 > witch collapse practice feed shame open despair creek road again ice least
 

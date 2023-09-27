@@ -43,7 +43,7 @@ Bitcoin offre una soluzione semplice: aspettare e vedere. I minatori sono liberi
 
 Nei successivi dieci minuti circa, verrà estratto un altro blocco. Nel codice di Bitcoin, esiste una regola che dice che vince chi ha speso più energia totale per tutti i blocchi della sua catena. Questa regola chiave di Bitcoin, che ci chiede di sommare il lavoro totale in una catena e di favorire la catena con la prova di lavoro cumulativa più pesante, viene talvolta chiamata *Nakamoto Consensus* (N.d.T in italiano *Consenso di Nakamoto*), in onore di Satoshi. 
 
-Supponiamo che i cinesi estraggano il blocco successivo. La loro catena è ora un blocco avanti rispetto a quella americana e contiene più prove di lavoro totali. Quando trasmetteranno questa scoperta, i nodi americani riconosceranno che i nodi cinesi hanno prodotto una catena Proof of Work cumulativa più pesante e si riorganizzeranno (o *reorg*, N.d.T.: abbreviato dall'inglese). Ciò significa che scarteranno il blocco che hanno estratto a favore dei due blocchi cinesi.
+Supponiamo che i cinesi estraggano il blocco successivo. La loro catena è ora un blocco avanti rispetto a quella americana e contiene più prove di lavoro totali. Quando trasmetteranno questa scoperta, i nodi americani riconosceranno che i nodi cinesi hanno prodotto una catena Proof of Work cumulativa più pesante e si riorganizzeranno (o *reorg*, N.d.T.: abbreviato dall'inglese *reorganization*). Ciò significa che scarteranno il blocco che hanno estratto a favore dei due blocchi cinesi.
 
 ![Chain split](images/catena-piu-lunga.png)
 *Una scissione della catena è un processo naturale che si verifica quando due minatori trovano un blocco nello stesso momento. La catena che diventa più pesante in base alla totale prova di lavoro è valida, e l'altro blocco diventa orfano.*
@@ -64,7 +64,7 @@ Il *mining* è probabilistico. A volte i blocchi sono distanti dieci minuti l'un
 
 Torniamo all'esempio del Capitolo 3, in cui Enrico si unisce per la prima volta alla rete Bitcoin.
 
-Il nodo di Enrico si connetterà ad altri nodi della rete e chiederà loro informazioni sui nodi che conoscono, per poi connettersi anch'esso ad alcuni di questi nodi. Questa operazione si chiama *node discovery* (N.d.T. in italiano "scoperta dei nodi").
+Il nodo di Enrico si connetterà ad altri nodi della rete e chiederà loro informazioni sui nodi che conoscono, per poi connettersi anch'esso ad alcuni di questi nodi. Questa operazione si chiama *node discovery* (N.d.T. in italiano *scoperta dei nodi*).
 
 Alcuni di questi nodi saranno assolutamente malevoli e gli forniranno una copia falsa del libro mastro, con firme errate per le transazioni, o bitcoin falsificati e coniati in modo improprio e senza *hash* validi della prova di lavoro. Tali copie saranno rifiutate immediatamente e i nodi in questione saranno istantaneamente banditi dal connettersi ulteriormente al nodo di Enrico[^1].
 
@@ -88,6 +88,6 @@ Se l'*hash rate* di Bitcoin dovesse diminuire in modo significativo, cioè viene
 
 D'altra parte, le transazioni Bitcoin sono quasi irreversibili solo dopo pochi blocchi. Da questo punto di vista, la reversibilità e la finalità delle transazioni Bitcoin rappresentano un notevole miglioramento rispetto alla maggior parte delle reti di pagamento tradizionali, almeno dal punto di vista del commerciante.
 
-Le stime odierne mostrano che se si avesse a disposizione l'energia dell'intera rete Bitcoin - una quantità davvero elevata, poiché si dovrebbe avere accesso a una quantità di energia pari a quella di una nazione e a tutti i componenti hardware specializzati di Bitcoin disponibili - ci vorrebbe comunque più di un anno per riscrivere l'intera storia della catena. È possibile esplorare questi dati su [<http://bitcoin.sipa.be>].
+Le stime odierne mostrano che se si avesse a disposizione l'energia dell'intera rete Bitcoin - una quantità davvero elevata, poiché si dovrebbe avere accesso a una quantità di energia pari a quella di una nazione e a tutti i componenti hardware specializzati di Bitcoin disponibili - ci vorrebbe comunque più di un anno per riscrivere l'intera storia della catena. È possibile esplorare questi dati su <http://bitcoin.sipa.be>.
 
 [^1]: Questo eccellente saggio approfondisce il modo in cui Bitcoin gestisce i blocchi non validi: <https://hackernoon.com/bitcoin-miners-beware-invalid-blocks-need-not-apply-51c293ee278b>

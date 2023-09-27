@@ -16,7 +16,7 @@ La prima cosa da capire è che il confronto tra MySpace e Facebook è inadeguato
 
 Il denaro, però, non funziona così. Se si detiene un euro di bitcoin, questo equivale a un euro di un'altra moneta che non si detiene. Bisogna prendere la decisione consapevole di vendere una moneta per un'altra. Non si può conservare lo stesso valore in entrambe contemporaneamente. Ora chiediti: perché mai dovresti detenere una moneta diversa da quella più liquida e accettata? La risposta è semplice: la speculazione. Se non si riesce a spostare l'intera economia intorno a sé in modo che detenga anche l'altra moneta, non c'è modo che questa diventi dominante.
 
-La liquidità di Bitcoin è di gran lunga superiore a quella dei suoi concorrenti. Ad oggi, secondo [https://messari.io/onchainfx](https://messari.io/onchainfx), il valore di mercato di Bitcoin è di circa 160 miliardi di dollari (N.d.T: 516 miliardi di dollari nel momento in cui sto traducendo). Il concorrente più importante, Ethereum, ha solo 30 miliardi di dollari di mercato. Questo non misura nemmeno la vera liquidità se si considera quanto si potrebbe vendere prima che il prezzo si riduca in modo significativo.
+La liquidità di Bitcoin è di gran lunga superiore a quella dei suoi concorrenti. Ad oggi, secondo <https://messari.io/onchainfx>, il valore di mercato di Bitcoin è di circa 160 miliardi di dollari (N.d.T: 516 miliardi di dollari nel momento in cui sto traducendo). Il concorrente più importante, Ethereum, ha solo 30 miliardi di dollari di mercato. Questo non misura nemmeno la vera liquidità se si considera quanto si potrebbe vendere prima che il prezzo si riduca in modo significativo.
 
 La liquidità è come una valanga di neve. Detenere il denaro più liquido significa che altre persone lo vogliono e questo genera altra liquidità. Se non si detiene il denaro più liquido, ci si punisce attivamente in attesa che tutti gli altri facciano lo stesso. Gli incentivi economici non si allineano a favore del passaggio della liquidità a un concorrente da un giorno all'altro.
 
@@ -24,11 +24,11 @@ La liquidità è come una valanga di neve. Detenere il denaro più liquido signi
 
 Grazie alle circostanze in cui si è sviluppato, a Bitcoin è stato permesso di crescere passando da un inutile esperimento per nerd su Internet che non interessava a nessuno, a finanziare l'acquisto di due pizze con 10.000 bitcoin, fino a raggiungere un picco di prezzo di 20.000 dollari statunitensi per bitcoin (N.d.T.: il più alto registrato a oggi è di 69.000 dollari statunitensi). Tutto ciò è avvenuto in modo relativamente silenzioso, senza che nessuno gli stesse col fiato sul collo. Durante questo periodo, ha costruito un sistema immunitario di livello internazionale grazie ad anni di attacchi, e ha fatto crescere la più grande rete di potenza di hash al mondo. Per dieci anni, mettendo al sicuro più di 100 miliardi di dollari, Bitcoin è stato impossibile da hackerare.
 
-Oggi è quasi impossibile lanciare una nuova criptovaluta in modo silenzioso. Il gatto è fuori dal sacco e tutti i trucchi sono ben noti. Prendiamo in considerazione una *blockchain* alternativa, EOS, [che valeva circa 10 miliardi di dollari al momento del lancio] (https://coinmarketcap.com/currencies/eos/) e oggi vale circa la metà (N.d.T.: meno di un decimo, in questo momento). Ha subito un blocco due giorni dopo il lancio a causa di *bug* nel codice. Questi *bug* sono stati corretti nel giro di poche ore con una supervisione o revisione minima. Hai intenzione di puntare 100 miliardi di dollari su una rete del genere? Forse EOS sarà ancora in circolazione tra 10 anni, ma a quel punto Bitcoin avrà 20 anni e si sarà assicurato un valore di trilioni di dollari.
+Oggi è quasi impossibile lanciare una nuova criptovaluta in modo silenzioso. Il gatto è fuori dal sacco e tutti i trucchi sono ben noti. Prendiamo in considerazione una *blockchain* alternativa, EOS, che valeva circa 10 miliardi di dollari al momento del lancio e oggi vale circa la metà (N.d.T.: meno di un decimo, in questo momento). Ha subito un blocco due giorni dopo il lancio a causa di *bug* nel codice. Questi *bug* sono stati corretti nel giro di poche ore con una supervisione o revisione minima. Hai intenzione di puntare 100 miliardi di dollari su una rete del genere? Forse EOS sarà ancora in circolazione tra 10 anni, ma a quel punto Bitcoin avrà 20 anni e si sarà assicurato un valore di trilioni di dollari.
 
 **Evitare gli attacchi da parte della potenza di hash esistente**
 
-Date le migliaia di monete in circolazione che utilizzano decine di algoritmi di *hashing*, ogni nuova moneta è minacciata dall'attacco del 51% da parte della potenza di *hash* esistente. Questo [è già successo a Bitcoin Gold](http://fortune.com/2018/05/29/bitcoin-gold-hack/) e [a diverse altre monete](https://www.coindesk.com/blockchains-feared-51-attack-now-becoming-regular/).
+Date le migliaia di monete in circolazione che utilizzano decine di algoritmi di *hashing*, ogni nuova moneta è minacciata dall'attacco del 51% da parte della potenza di *hash* esistente. Questo è già successo a Bitcoin Gold e a diverse altre monete.
 
 Un nuovo concorrente deve sopravvivere agli attacchi della potenza di *hash* esistente o utilizzare un algoritmo che non abbia ASIC specializzati. In assenza di ASIC, il sistema può essere facilmente attaccato noleggiando GPU, che sono ampiamente disponibili. Inoltre, il concorrente non può iniziare a proteggere una grande quantità di valore come ha fatto EOS fin dal primo giorno, il che è azzardato ed è un buon modo per favorire una grande centralizzazione. Ciò significa che non può nemmeno raccogliere fondi, ma piuttosto fare un lancio equo simile a quello di Bitcoin in modo da crescere lentamente di valore costruendo il proprio modello di sicurezza in modo proporzionale. Tuttavia, crescendo lentamente, non potrà mai raggiungere la base di utenti e la liquidità di Bitcoin.
 
@@ -44,13 +44,13 @@ Proprio come Linux ha creato un vortice di attività che ha impedito ad altri si
 
 **Far Crescere una rete finanziaria mondiale**
 
-Bitcoin è supportato da [centinaia di *exchange* in tutto il mondo](https://coinmarketcap.com/currencies/bitcoin/#markets), da contratti futures e altri prodotti finanziari derivati presso importanti operatori come il Chicago Mercantile Exchange, da centinaia di hedge fund e trading desk, e da una rete di persone che [già utilizzano Bitcoin come alternativa a valute fallite come il Bolivar venezuelano](https://www.forbes.com/sites/realspin/2017/02/03/why-venezuelas-currency-crisis-is-a-case-study-for-bitcoin/#4671a1d719b2). Tutte queste cose dovrebbero essere realizzate affinché un concorrente di Bitcoin possa soppiantarlo.
+Bitcoin è supportato da centinaia di *exchange* in tutto il mondo, da contratti futures e altri prodotti finanziari derivati presso importanti operatori come il Chicago Mercantile Exchange, da centinaia di hedge fund e trading desk, e da una rete di persone che già utilizzano Bitcoin come alternativa a valute fallite come il Bolivar venezuelano. Tutte queste cose dovrebbero essere realizzate affinché un concorrente di Bitcoin possa soppiantarlo.
 
 Istituzioni come il Chicago Mercantile Exchange non quoteranno ogni nuovo concorrente senza che abbia un volume di scambi adeguato. Bisogna convincere le aziende ad accettare questo nuovo concorrente al posto di Bitcoin. Un concorrente che probabilmente è meno sicuro, meno liquido, ha sviluppatori meno competenti e, per definizione, è meno adottato a livello mondiale. Si tratta di una salita ripida da scalare.
 
 **Essere una moneta più solida**
 
-C'è un [grave equivoco sul fatto che Bitcoin debba rappresentare un modo veloce ed economico di inviare denaro](https://fintechnologynews.com/neither-fast-nor-cheap-choosing-bitcoin-is-foolish-says-nanopay/). È chiaro che non possa essere così, viste le sue proprietà fondamentali che prevedono un libro mastro replicato in tutto il mondo. Tuttavia, il caso d'uso principale ed effettivamente dimostrato di Bitcoin come denaro sonante resistente alla censura sta crescendo.
+C'è un grave equivoco sul fatto che Bitcoin debba rappresentare un modo veloce ed economico di inviare denaro. È chiaro che non possa essere così, viste le sue proprietà fondamentali che prevedono un libro mastro replicato in tutto il mondo. Tuttavia, il caso d'uso principale ed effettivamente dimostrato di Bitcoin come denaro sonante resistente alla censura sta crescendo.
 
 Qualsiasi altra cosa, come ad esempio rendere le rimesse più economiche, è fondamentalmente una ciliegina sulla torta. La maggior parte degli aspiranti concorrenti pensa ancora di dover risolvere il caso d'uso dei pagamenti veloci, che è già stato risolto da decine di società centralizzate in tutto il mondo, e risolto ragionevolmente bene. Questo caso d'uso viene risolto anche da *Lightning Network*, il *layer 2* (N.d.T.: in italiano *strato secondario*) in rapida crescita di Bitcoin.
 
@@ -79,7 +79,7 @@ Lightning Network, se avrà successo, migliorerà molti aspetti negativi di Bitc
 - Spese di transazione inferiori al centesimo adatte a micropagamenti come il pagamento di un centesimo per leggere l'articolo di un blog.
 - Maggiore privacy. Solo le parti che partecipano alle transazioni devono esserne a conoscenza, a differenza di una transazione *on-chain* che viene diffusa globalmente.
 
-Lightning utilizza il concetto di canali di pagamento, che sono vere e proprie transazioni Bitcoin *on-chain* che bloccano una certa quantità di bitcoin e la rendono disponibile all'interno della rete Lightning per trasferimenti istantanei e quasi gratuiti. La rete Lightning è ancora in fase iniziale, ma è già molto promettente (N.d.T: nel momento in cui sto traducendo, si può dire ha fatto molta strada: esistono più di 16.000 nodi Lightning Network per una capacità totale di 5.300 bitcoin). È possibile consultare un sito che utilizza micropagamenti basati su Lightning per gli articoli all'indirizzo [https://yalls.org/](https://yalls.org/)
+Lightning utilizza il concetto di canali di pagamento, che sono vere e proprie transazioni Bitcoin *on-chain* che bloccano una certa quantità di bitcoin e la rendono disponibile all'interno della rete Lightning per trasferimenti istantanei e quasi gratuiti. La rete Lightning è ancora in fase iniziale, ma è già molto promettente (N.d.T: nel momento in cui sto traducendo, si può dire ha fatto molta strada: esistono più di 16.000 nodi Lightning Network per una capacità totale di 5.300 bitcoin). È possibile consultare un sito che utilizza micropagamenti basati su Lightning per gli articoli all'indirizzo <https://yalls.org/>.
 
 ### Bitcoin nello spazio
 
@@ -99,7 +99,7 @@ Per saperne di più sull'economia alla base di Bitcoin:
 - *Bitcoin Investment Theses* di Pierre Rochard<br>
     <https://medium.com/@pierre_rochard/bitcoin-investment-theses-part-1-e97670b5389b>
 - *The Bullish Case for Bitcoin* di Vijay Boyapati<br>
-    [https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1)
+    <https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1>
 - Per i bambini: *Bitcoin Money* di Michael Caras
 
 Per approfondire gli aspetti legati all'informatica:
@@ -109,18 +109,18 @@ Per approfondire gli aspetti legati all'informatica:
 - *Mastering Bitcoin* di Andreas Antonopoulos
 - *Programming Bitcoin* di Jimmy Song
 - Seminario di Jimmy Song su<br>
-    https://programmingblockchain.com
+    <https://programmingblockchain.com>
 
 Per approfondire la storia e la filosofia di Bitcoin:
 
 - *Planting Bitcoin* di Dan Held<br>
-    [https://medium.com/\@danhedl/planting-bitcoin-sound-money-72e80e40ff62](https://medium.com/@danhedl/planting-bitcoin-sound-money-72e80e40ff62)
+    <https://medium.com/\@danhedl/planting-bitcoin-sound-money-72e80e40ff62>
 - *Bitcoin Governance* di Pierre Rochard<br>
     <https://medium.com/@pierre_rochard/bitcoin-governance-37e86299470f>
 - *Bitcoin Past and Future* di Murad Mahmudov<br>
     <https://blog.usejournal.com/bitcoin-past-and-future-45d92b3180f1>
 - Tutti i video di Andreas Antonopoulos, in particolare *Currency Wars* e *The Monument of Immutability*, su<br>
-    [https://www.youtube.com/user/aantonop](https://www.youtube.com/user/aantonop)
+    <https://www.youtube.com/user/aantonop>
 
 Gran parte dell'ecosistema Bitcoin vive su Twitter. Ecco una manciata di persone, in ordine sparso, che è bene seguire. Iniziate da qui e poi proseguite: <http://bitcoinerlist.com>.
 
