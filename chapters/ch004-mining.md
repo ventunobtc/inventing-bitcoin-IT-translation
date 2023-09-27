@@ -62,7 +62,7 @@ La ricompensa dei blocchi nel 2008 era pari a 50, nel 2012 era pari a 25, nel 20
 
 Tra 50.144 blocchi, o approssimativamente alla fine di maggio 2020, la ricompensa scenderà a 6,25 bitcoin per blocco, portando a un tasso di aumento annuale dell'offerta di circa l'1,8% (N.d.T.: è successo l'11 maggio 2020). Tra dodici anni, a seguito di altri tre dimezzamenti della ricompensa, oltre il 99% di tutti i bitcoin sarà stato estratto e verrà prodotto meno di 1 bitcoin per blocco. È possibile monitorare i progressi del dimezzamento della ricompensa dei blocchi su <bitcoinblockhalf.com>.
 
-![Programma di emissione di Bitcoin](images/Controlled_supply-supply_over_block_height.png)
+![Programma di emissione di Bitcoin](images/controlled-supply.png)
 *https://en.bitcoin.it/w/images/en/4/42/Controlled_supply-supply_over_block_height.png*
 
 Un giorno, intorno all'anno 2140, la ricompensa dei blocchi sparirà del tutto e i minatori saranno incentivati solo dalle commissioni pagate da chi esegue le transazioni.
@@ -93,7 +93,7 @@ Se invece ci sono meno persone che minano, si crea il problema opposto:
 
 Il numero totale di *hash* al secondo eseguiti da tutti i minatori della rete Bitcoin viene definito *hash rate*.
 
-![Grafico dei minuti tra i blocchi](images/minuti-tra-i-blocchi.png)
+![Grafico dei minuti tra i blocchi](images/blocktime.png)
 *Il tempo tra i blocchi varia a seconda dell'hash rate in entrata e in uscita e della casualità.
 
 ## Aggiustamento della difficoltà: accordarsi sul target
@@ -117,12 +117,12 @@ Ora possiamo regolare il Numero Target in modo che si alzi o si abbassi proporzi
 
 Possiamo aumentare il Numero Target a un numero più alto, creando un intervallo più ampio di *hash* validi, dando ai minatori una maggiore possibilità di trovare un *hash* vincente, spendendo così meno energia per ogni blocco trovato. Questo si chiama *abbassare la difficoltà*.
 
-![Più facile da minare](images/hashing-line-facile.png)
+![Più facile da minare](images/hashing-line-easier.png)
 *Aumentando il target aumenta l'intervallo valido da trovare, quindi è più probabile che si riesca a raggiungerlo con meno tentativi, il che rende più coveniente l'energia consumata*.
 
 In alternativa, possiamo abbassare il Numero Target in modo che meno *hash* siano validi e i minatori debbano spendere più energia per trovare un *hash* valido. Questo si chiama *aumentare la difficoltà*.
 
-![Più difficile da minare](images/hashing-line-difficile.png)
+![Più difficile da minare](images/hashing-line-harder.png)
 
 Ciò significa che per ogni periodo di 2016 blocchi, sappiamo esattamente qual è il Numero Target. Questo ci permette di conoscere la soglia magica sotto della quale il numero di *hash* della prova di lavoro deve scendere per ottenere un biglietto della lotteria vincente per qualsiasi blocco prodotto in quel periodo.
 

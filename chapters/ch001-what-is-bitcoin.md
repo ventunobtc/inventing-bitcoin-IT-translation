@@ -16,7 +16,7 @@ Bitcoin offre un'alternativa al denaro digitale controllato a livello centrale g
 2. Un gruppo di computer interconnessi (la *rete Bitcoin*), a cui chiunque può aderire eseguendo un software. Questa rete serve a emettere bitcoin, tracciarne il possesso e trasferirli tra i partecipanti senza dover ricorrere a intermediari come banche, società di pagamento ed enti governativi.
 3. Il software client di Bitcoin, un pezzo di codice che chiunque può eseguire sul proprio computer per diventare un partecipante della rete. Questo software è *open source*, il che significa che chiunque può vedere come funziona e contribuire con nuove funzionalità e correzioni di errori.
 
-![Bitcoin network](images/Bitcoin-capital-B.png)
+![Bitcoin network](images/bitcoin-capital-B.png)
 *Bitcoin è una rete di computer che eseguono il software client Bitcoin*.
 
 Nella prossima sezione approfondiremo le motivazioni alla base di Bitcoin.
