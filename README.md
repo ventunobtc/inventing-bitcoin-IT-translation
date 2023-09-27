@@ -26,15 +26,15 @@ Donazioni: https://getalby.com/p/loop
 
 | Capitolo | Titolo                                                       | Titolo Originale           |
 | -------- | ------------------------------------------------------------ | -------------------------- |
-| 1        | [Che cos'è Bitcoin?](chapters/ch001-cos-e-bitcoin.md) | What is Bitcoin? |
-| 2        | [Eliminare l'intermediario](chapters/ch002-eliminare-l-intermediario.md) | Removing the Middleman |
-| 3        | [Prova di lavoro](chapters/ch003-prova-di-lavoro.md) | Proof of Work |
+| 1        | [Che cos'è Bitcoin?](chapters/ch001-what-is-bitcoin.md) | What is Bitcoin? |
+| 2        | [Eliminare l'intermediario](chapters/ch002-removing-the-middleman.md) | Removing the Middleman |
+| 3        | [Prova di lavoro](chapters/ch003-proof-of-work.md) | Proof of Work |
 | 4        | [Mining](chapters/ch004-mining.md) | Mining |
-| 5        | [Proteggere il libro mastro](chapters/ch005-proteggere-il-libro-mastro.md) | Securing The Ledger |
-| 6        | [Fork e attacchi 51%](chapters/ch006-fork-e-attacchi-51%.md) | Forks and 51% Attacks |
-| 7        | [Conti senza identità](chapters/ch007-conti-senza-identita.md) | Accounts Without Identity |
-| 8        | [Chi fa le regole?](chapters/ch008-chi-fa-le-regole.md) | Who Makes the Rules? |
-| 9        | [Che cosa accadrà in futuro](chapters/ch009-cosa-accadra-in-futuro.md) | What's Next |
+| 5        | [Proteggere il libro mastro](chapters/ch005-securing-the-ledger.md) | Securing The Ledger |
+| 6        | [Fork e attacchi 51%](chapters/ch006-forks-and-51%-attacks.md) | Forks and 51% Attacks |
+| 7        | [Conti senza identità](chapters/ch007-accounts-without-identity.md) | Accounts Without Identity |
+| 8        | [Chi fa le regole?](chapters/ch008-who-makes-the-rules.md) | Who Makes the Rules? |
+| 9        | [Che cosa accadrà in futuro](chapters/ch009-whats-next.md) | What's Next |
 
 ## Ringraziamenti e Informazioni sull'autore e sul traduttore
 
