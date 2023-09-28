@@ -1,18 +1,17 @@
 # Inventiamo Bitcoin
-Traduzione Italiana di Inventing Bitcoin di Yan Pritzker
+### La tecnologia alla base della prima moneta veramente scarsa e decentralizzata
+
+Traduzione Italiana di *Inventing Bitcoin* di Yan Pritzker
 
 Opera originale: [Yan Pritzker](https://twitter.com/skwp)
 
-Introduzione alla Traduzione Italiana: [Marco Amadori](https://bitcoinvalley.eu) ([@mammadori](https://twitter.com/mammadori))
-
-Traduzione Italiana: [Loop](https://loop-btc.github.io/) ([@loop_btc](https://twitter.com/loop_btc))
+Traduzione Italiana: [Loop](https://twitter.com/loop_btc)
 
 Revisione: 
 
 [Licenza](LICENSE)
 
 Donazioni: https://getalby.com/p/loop
-
 
 ## Introduzione alla Traduzione Italiana
 
