@@ -29,3 +29,9 @@ Inoltre, non ci addentreremo in alcun codice informatico e non è richiesta alcu
 Per me, capire tutti gli elementi che contribuiscono al funzionamento di Bitcoin è stato un momento profondo. In questo libro, spero di condividere con te questa conoscenza in modo semplice e sintetico. Il mio obiettivo oggi è stuzzicare il tuo cervello e darti un assaggio dell'informatica, dell'economia e della teoria dei giochi che rendono Bitcoin una delle invenzioni più interessanti e significative del nostro tempo. Comprendendo il funzionamento di Bitcoin, spero che scoprirai, come ho fatto io, che Bitcoin è molto più profondo di quanto sembri a prima vista e che potrebbe avere un impatto incredibile sul mondo per le generazioni future.
 
 Lo faremo un passo alla volta. Con niente di più che un background matematico di livello liceale, scopriremo come *Inventare Bitcoin*, passo dopo passo. Spero che questo libro ti fornisca un'introduzione sufficiente a farti scendere nella tana del Bianconiglio di Bitcoin. Si parte!
+
+***
+
+Questo libro è dedicato ai miei genitori Yury e Lana, che hanno estratto la nostra famiglia dall'ex URSS, un regime socialista autocratico con stretti controlli sui capitali.
+
+È dedicato anche a mia moglie Jessica, che ha dovuto sopportare la mia incapacità di smettere di parlare di Bitcoin e il mio rimanere sveglio fino a tardi per finire questo libro.
