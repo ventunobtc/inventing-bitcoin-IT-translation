@@ -64,7 +64,7 @@ Torniamo all'esempio del Capitolo 3, in cui Enrico si unisce per la prima volta 
 
 Il nodo di Enrico si connetterà ad altri nodi della rete e chiederà loro informazioni sui nodi che conoscono, per poi connettersi anch'esso ad alcuni di questi nodi. Questa operazione si chiama *node discovery* (N.d.T. in italiano *scoperta dei nodi*).
 
-Alcuni di questi nodi saranno assolutamente malevoli e gli forniranno una copia falsa del libro mastro, con firme errate per le transazioni, o bitcoin falsificati e coniati in modo improprio e senza *hash* validi della prova di lavoro. Tali copie saranno rifiutate immediatamente e i nodi in questione saranno istantaneamente banditi dal connettersi ulteriormente al nodo di Enrico[^1].
+Alcuni di questi nodi saranno assolutamente malevoli e gli forniranno una copia falsa del libro mastro, con firme errate per le transazioni, o bitcoin falsificati e coniati in modo improprio e senza *hash* validi della prova di lavoro. Tali copie saranno rifiutate immediatamente e i nodi in questione saranno istantaneamente banditi dal connettersi ulteriormente al nodo di Enrico.[[4]](ch010-notes.md#l2) <a name="r4"></a>
 
 Gli altri nodi a cui si connette saranno onesti, ma avranno versioni contrastanti della verità. Ad esempio, alcuni di essi potrebbero essere stati messi offline e risultare indietro di un blocco o due. Se scarica più copie della *block chain*, tutte ugualmente valide, il software del suo nodo utilizzerà il *Nakamoto Consensus*. Misurando la prova di lavoro cumulativa totale, la catena più pesante sarà ritenuta l'unica vera catena.
 
@@ -87,5 +87,3 @@ Se l'*hash rate* di Bitcoin dovesse diminuire in modo significativo, cioè viene
 D'altra parte, le transazioni Bitcoin sono quasi irreversibili solo dopo pochi blocchi. Da questo punto di vista, la reversibilità e la finalità delle transazioni Bitcoin rappresentano un notevole miglioramento rispetto alla maggior parte delle reti di pagamento tradizionali, almeno dal punto di vista del commerciante.
 
 Le stime odierne mostrano che se si avesse a disposizione l'energia dell'intera rete Bitcoin - una quantità davvero elevata, poiché si dovrebbe avere accesso a una quantità di energia pari a quella di una nazione e a tutti i componenti hardware specializzati di Bitcoin disponibili - ci vorrebbe comunque più di un anno per riscrivere l'intera storia della catena. È possibile esplorare questi dati su <http://bitcoin.sipa.be>.
-
-[^1]: Questo eccellente saggio approfondisce il modo in cui Bitcoin gestisce i blocchi non validi: <https://hackernoon.com/bitcoin-miners-beware-invalid-blocks-need-not-apply-51c293ee278b>

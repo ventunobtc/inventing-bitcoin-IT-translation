@@ -34,7 +34,7 @@ Un nuovo concorrente deve sopravvivere agli attacchi della potenza di *hash* esi
 
 **Essere altamente decentralizzato**
 
-Gran parte del modello di sicurezza di Bitcoin deriva da un alto grado di decentralizzazione. Ciò significa che il protocollo è difficile da modificare e quindi ci si può fidare che rispetti le proprietà dichiarate nel suo codice (supply fissa, ecc.). Questa proprietà è stata dimostrata quando un gran numero di imprese e di minatori si sono riuniti e hanno cercato di modificare la dimensione dei blocchi per orientare il protocollo in una specifica direzione[1]. Il loro *fork* è stato rifiutato dagli utenti ed è fallito in modo clamoroso.
+Gran parte del modello di sicurezza di Bitcoin deriva da un alto grado di decentralizzazione. Ciò significa che il protocollo è difficile da modificare e quindi ci si può fidare che rispetti le proprietà dichiarate nel suo codice (supply fissa, ecc.). Questa proprietà è stata dimostrata quando un gran numero di imprese e di minatori si sono riuniti e hanno cercato di modificare la dimensione dei blocchi per orientare il protocollo in una specifica direzione.[[9]](ch010-notes.md#l9) <a name="r9"></a> Il loro *fork* è stato rifiutato dagli utenti ed è fallito in modo clamoroso.
 
 Un concorrente altamente decentralizzato esclude sostanzialmente tutte le aziende o i team fondati da persone conosciute, poiché questo crea un punto centrale di fallimento e coercizione. Inoltre, esclude qualsiasi moneta disposta a "muoversi velocemente e spaccare", poiché è possibile fare ciò solo quando si è centralizzati. Qualsiasi concorrente di Bitcoin dovrà scegliere tra muoversi velocemente centralizzandosi, oppure muoversi lentamente senza mai riuscire a recuperare il ritardo.
 
@@ -125,6 +125,3 @@ Per approfondire la storia e la filosofia di Bitcoin:
 Gran parte dell'ecosistema Bitcoin vive su Twitter. Ecco una manciata di persone, in ordine sparso, che è bene seguire. Iniziate da qui e poi proseguite: <http://bitcoinerlist.com>.
 
 Potete trovare altri miei scritti su [yanpritzker.com](http://yanpritzker.com). Ci vediamo dall'altra parte.
-
-[^1]: Scopri di più sul cosiddetto *fork* di *Segwit2X* che era stato pianificato attraverso accordi segreti e successivamente interrotto: <https://bitcoinmagazine.com/articles/now-segwit2x-hard-fork-has-really-failed-activate>
-

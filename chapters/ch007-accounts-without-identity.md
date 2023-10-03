@@ -52,7 +52,7 @@ Breve ripasso di statistica di base: la probabilità che si verifichino più eve
 
 La probabilità di indovinare l'esito di 8 lanci di fila di una moneta è pari a 2^8, ovvero una su 256.
 
-Una targa ha 6 lettere e numeri. Ci sono 26 lettere e 10 numeri, per un totale di 36 caratteri. Il numero di targhe possibili è 36^6, quindi le probabilità di indovinare una targa sono una su due miliardi[^1].
+Una targa ha 6 lettere e numeri. Ci sono 26 lettere e 10 numeri, per un totale di 36 caratteri. Il numero di targhe possibili è 36^6, quindi le probabilità di indovinare una targa sono una su due miliardi.[[5]](ch010-notes.md#l2) <a name="r5"></a>
 
 Una carta di credito è composta da sedici cifre. Ogni cifra può avere 10 valori, quindi le probabilità di indovinare una carta di credito sono una su 10^16, cioè una su 10.000.000.000.000.000 o circa una su dieci quadrilioni.
 
@@ -90,7 +90,7 @@ Dunque, per verificare il "saldo" di un particolare indirizzo, dobbiamo sommare 
 
 Il modello UTXO consente di individuare in modo semplice ed efficiente le doppie spese, poiché ogni UTXO può essere speso una sola volta. Per farlo, non abbiamo bisogno di conoscere l'intera storia delle spese effettuate da un particolare conto.
 
-Possiamo anche creare e distruggere un numero qualsiasi di UTXO contemporaneamente, creando transazioni complesse che mescolano diversi input e output. Ciò consente l'implementazione di CoinJoin[^2], in cui più parti partecipano a un'unica transazione Bitcoin che mescola un numero qualsiasi di input per produrre un numero qualsiasi di output, oscurando così la storia degli UTXO dei partecipanti. La popolarità di queste tecniche è in aumento ed è importante per la privacy e la *fungibilità*, termine che indica che un bitcoin qualunque è del tutto equivalente a qualsiasi altro bitcoin. In questo modo, se alcuni bitcoin passano per le mani di persone poco raccomandabili, non vengono contaminati per l'eternità solo perché sono stati usati una volta per qualcosa di malevolo.
+Possiamo anche creare e distruggere un numero qualsiasi di UTXO contemporaneamente, creando transazioni complesse che mescolano diversi input e output. Ciò consente l'implementazione di CoinJoin[[6]](ch010-notes.md#l2) <a name="r6"></a>, in cui più parti partecipano a un'unica transazione Bitcoin che mescola un numero qualsiasi di input per produrre un numero qualsiasi di output, oscurando così la storia degli UTXO dei partecipanti. La popolarità di queste tecniche è in aumento ed è importante per la privacy e la *fungibilità*, termine che indica che un bitcoin qualunque è del tutto equivalente a qualsiasi altro bitcoin. In questo modo, se alcuni bitcoin passano per le mani di persone poco raccomandabili, non vengono contaminati per l'eternità solo perché sono stati usati una volta per qualcosa di malevolo.
 
 ## Wallet
 
@@ -127,7 +127,3 @@ Si può persino spingersi oltre e creare indirizzi che vengono sbloccati da cond
 Sempre più soluzioni di custodia parziale stanno nascendo da aziende come Casa e Unchained Capital, che aiutano a conservare le chiavi in modo sicuro. A differenza di una banca, che può bloccare il vostro conto, queste soluzioni fungono da backup o da co-firmatario di fiducia, ma non possono prendere i vostri fondi senza le vostre chiavi. Il software dei wallet è in continua evoluzione perché non richiede l'autorizzazione di nessuno, a differenza dell'app della banca. Per questo motivo vediamo nascere sempre più nuovi operatori e innovazione.
 
 Si tratta di un fenomeno profondo e di portata mondiale. Mai prima d'ora è stato possibile trasportare il proprio patrimonio in modo completamente sicuro da sequestri o furti.
-
-[^1]: L'ispirazione per questa sezione è venuta da un eccellente post su Medium che illustra in dettaglio le probabilità di una serie di eventi. Raccomando di leggere l'intero post per capire il contesto: <https://medium.com/@kerbleski/a-dance-with-infinity-980bd8e9a781>
-
-[^2]: <https://en.bitcoin.it/wiki/CoinJoin>
