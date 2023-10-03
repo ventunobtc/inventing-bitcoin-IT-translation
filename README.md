@@ -15,7 +15,7 @@ Donazioni: https://getalby.com/p/loop
 
 ## Introduzione alla Traduzione Italiana
 
-[Introduzione alla Traduzione Italiana](introduzione-traduzione-italiana.md) di Marco Amadori 
+[Introduzione alla Traduzione Italiana](INTRO-ITA.md) di Marco Amadori 
 
 ## Introduzione
 
@@ -34,7 +34,6 @@ Donazioni: https://getalby.com/p/loop
 | 7        | [Conti senza identità](chapters/ch007-accounts-without-identity.md) | Accounts Without Identity |
 | 8        | [Chi fa le regole?](chapters/ch008-who-makes-the-rules.md) | Who Makes the Rules? |
 | 9        | [Che cosa accadrà in futuro](chapters/ch009-whats-next.md) | What's Next |
-
-## Ringraziamenti e Informazioni sull'autore e sul traduttore
-
-[Ringraziamenti e Informazioni sull'autore e sul traduttore](ringraziamenti-informazioni.md)
+| 10       | [Ringraziamenti](chapters/ch010-acknowledgments.md) | Acknowledgments |
+| 11       | [Informazioni sull'autore](chapters/ch011-about-the-author.md) | About the Author |
+| 12       | [Note](chapters/ch012-notes.md) |  |
