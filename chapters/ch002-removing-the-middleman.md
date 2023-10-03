@@ -34,8 +34,7 @@ In presenza di un'autorità centrale come una banca, per quest'ultima è molto f
 
 Lo chiamiamo sistema *centralizzato* perché ha un unico punto di controllo.
 
-![Sistema centralizzato](images/centralized-system.png)
-*La banca conserva un libro mastro a cui tutti possono accedere, ma solo passando attraverso la banca.*
+![La banca conserva un libro mastro a cui tutti possono accedere, ma solo passando attraverso la banca.](images/centralized-system.png)
 
 ## Distribuire il libro mastro
 
@@ -45,8 +44,7 @@ In assenza di una contabilità centralizzata, il libro mastro deve appartenere a
 
 Innanzitutto, un gruppo di noi si riunisce e crea una *rete*. Questo significa che abbiamo un modo per parlare tra di noi. Diciamo che ci scambiamo numeri di telefono o account Telegram. Quando Alice vuole inviare denaro a Bob, invece di chiamare la banca, dice a tutti i suoi amici: "Sto inviando 2 euro a Bob". Tutti rispondono: "Bene, abbiamo capito" e scrivono il messaggio nella propria copia del libro mastro. Il quadro ora si presenta così:
 
-![Libro mastro decentralizzato](images/decentralized-system.png)
-*Ognuno ha una copia del libro mastro a cui può accedere in modo indipendente.*
+![Ognuno ha una copia del libro mastro a cui può accedere in modo indipendente.](images/decentralized-system.png)
 
 Così adesso, anziché dipendere da una singola banca, abbiamo tutti a disposizione una copia del libro mastro. Ogni volta che qualcuno vuole spendere del denaro, deve semplicemente dirlo a tutti i suoi amici. Tutti annotano le transazioni. Poiché il libro mastro non si trova più in un unico luogo, lo chiamiamo *distribuito* e, poiché non c'è una figura centrale al comando, lo chiamiamo *decentralizzato*. Questo risolve la questione dell'eliminazione dell'intermediario.
 

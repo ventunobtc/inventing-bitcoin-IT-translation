@@ -73,8 +73,7 @@ Nel caso di questo *fork*, le persone che gestivano la stragrande maggioranza de
 
 Oggi esistono decine di altri *fork* di Bitcoin, come Bitcoin SV (a sua volta un *fork* di Bitcoin Cash), Bitcoin Gold, Bitcoin Diamond e Bitcoin Private. Tutti hanno *hash rate* minimo che li tutela, scarsa attività degli sviluppatori, oltre un'attività sulla catena e una liquidità di scambio quasi inesistenti. La mancanza di liquidità li rende bersagli privilegiati dei cosiddetti *pump and dump*, che spesso portano a un aumento vertiginoso dei prezzi e, subito dopo, a cali altrettanto eclatanti e devastanti. Molti sono stati oggetto di *hacking* dei wallet, attacchi del 51% e altri disastri. Alcune sono vere e proprie truffe o semplicemente carne da macello per giocatori d'azzardo. La maggior parte di esse presenta un alto grado di centralizzazione in qualche aspetto del loro design. Il sito web <forkdrop.io> sta attualmente monitorando 74 aspiranti Bitcoin (N.d.T.: 127 nel momento in cui sto traducendo).
 
-![forks](images/forks.png)
-*Le monete di un soft-fork possono essere inviate ai nodi più vecchi. Un hard-fork produce nuovi UTXO incompatibili con il passato che non saranno accettati dai vecchi nodi.*
+![Le monete di un soft-fork possono essere inviate ai nodi più vecchi. Un hard-fork produce nuovi UTXO incompatibili con il passato che non saranno accettati dai vecchi nodi.](images/forks.png)
 
 Molte altre monete utilizzano un codice simile ma hanno iniziato il loro libro mastro da zero senza ereditare l'UTXO set di Bitcoin, come Litecoin o Dogecoin. In genere non sono considerati *fork* di Bitcoin, anche se spesso condividono gran parte dello stesso codice, perché non condividono la cronologia dei saldi dei conti.
 

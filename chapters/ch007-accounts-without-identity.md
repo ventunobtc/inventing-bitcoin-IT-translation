@@ -36,8 +36,7 @@ Quando annuncia la transazione agli altri nodi della rete, rivela la chiave pubb
 - Ecco la chiave pubblica dell'indirizzo 12345, si può vedere che è effettivamente la chiave pubblica facendo l'*hash* della chiave pubblica e vedendo che si ottiene tale indirizzo.
 - Ecco una firma che ho criptato con la chiave privata corrispondente a questo indirizzo. È possibile utilizzare la chiave pubblica per decifrarla e verificare che è identica a quella dei dati della transazione che sto inviando.
 
-![Firma](images/transaction-signing.png)
-*La transazione che sposta le monete viene crittografata utilizzando la chiave privata per creare una firma digitale. Viene decifrata usando la chiave pubblica, che tutti conoscono.
+![La transazione che sposta le monete viene crittografata utilizzando la chiave privata per creare una firma digitale. Viene decifrata usando la chiave pubblica, che tutti conoscono.](images/transaction-signing.png)
 
 Poiché ora tutti conoscono la chiave pubblica di Alice per la sua cassetta postale, chiunque può facilmente decifrare la firma digitale. Essendo in grado di decifrare correttamente la firma utilizzando la chiave pubblica dell'indirizzo, tutti sanno che Alice deve aver utilizzato la chiave privata di quell'indirizzo per creare la firma. Altrimenti, la loro decifrazione sarebbe fallita, poiché la chiave pubblica può decifrare solo i messaggi crittografati con la chiave privata corrispondente. Ma soprattutto, nessuno conosce la sua chiave privata, bensì solo la prova che è stata in grado di usarla per crittografare la sua firma.
 
@@ -83,8 +82,7 @@ A differenza delle monete metalliche, che possono avere tagli specifici come die
 
 Supponiamo che Alice abbia un indirizzo che contiene 1 bitcoin. Vuole inviare 0,3 bitcoin a Bob. Alice genera una transazione che mostra il suo indirizzo con un UTXO da 1 bitcoin come input e due output: una nuovo UTXO da 0,3 bitcoin verso l'indirizzo di Bob e una nuovo UTXO da 0,7 bitcoin per un suo indirizzo, come resto. Il resto può essere inviato all'indirizzo di invio originale o, per una maggiore privacy, può essere inviato a un nuovo indirizzo generato al volo.
 
-![Utxo](images/alice-to-bob.png)
-*Se non si dispone di un UTXO dell'importo esatto che si desidera inviare, se ne dividerà uno per creare il resto. Si possono anche combinare più UTXO per creare un nuovo UTXO più grande.
+![Se non si dispone di un UTXO dell'importo esatto che si desidera inviare, se ne dividerà uno per creare il resto. Si possono anche combinare più UTXO per creare un nuovo UTXO più grande.](images/alice-to-bob.png)
 
 Osservando la *block chain*, non c'è modo di sapere chi controlla un determinato indirizzo. Per farlo, è necessario conoscere le chiavi private corrispondenti e collegarle alle identità del mondo reale. Il modello UTXO incoraggia un meccanismo di privacy molto interessante, inviando le monete a un nuovo indirizzo ogni volta che vengono spostate. Pertanto, una persona che ha inviato o ricevuto monete molte volte, può possedere centinaia o migliaia di indirizzi. Il software del wallet gestisce tutto questo per noi, quindi non dobbiamo preoccuparci dei tecnicismi.
 

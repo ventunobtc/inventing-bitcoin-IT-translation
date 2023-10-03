@@ -49,8 +49,7 @@ Una funzione *hash* è una funzione speciale in cui si inserisce una qualsiasi s
 
 La particolare funzione di *hash* che ho utilizzato per l'*hash* di "Hello world" si chiama *SHA-256* e si dà il caso che sia quella utilizzata da Bitcoin.
 
-![Sha256](images/sha256.png)
-*I dati entrano da una parte, dall'altra escono numeri giganteschi e imprevedibili.
+![I dati entrano da una parte, dall'altra escono numeri giganteschi e imprevedibili.](images/sha256.png)
 
 La funzione di *hash* sha256 ha le seguenti proprietà che ci risultano utili:
 
@@ -127,8 +126,7 @@ Potrei aver impiegato miliardi di tentativi di *hashing* per arrivare a questo p
 
 Poiché ho fornito loro sia i dati di input (transazioni e *nonce*) sia l'output previsto (il numero di *hash*), gli altri possono eseguire lo stesso *hash* in un solo tentativo e verificare se ho effettivamente fornito loro i dati corretti.
 
-![hashing](images/hashing-line.png)
-*Possiamo pensare all'hashing come al lancio di un dado gigante che produce numeri da zero al numero di atomi dell'universo in base ai dati di input composti dalle transazioni. Solo gli hash inferiori al target vincono la lotteria e bisogna dimostrare quali dati sono stati utilizzati per produrre l'hash.*
+![Possiamo pensare all'hashing come al lancio di un dado gigante che produce numeri da zero al numero di atomi dell'universo in base ai dati di input composti dalle transazioni. Solo gli hash inferiori al target vincono la lotteria e bisogna dimostrare quali dati sono stati utilizzati per produrre l'hash.](images/hashing-line.png)
 
 Come si collega tutto questo al consumo di energia? Abbiamo già detto che l'insieme di tutti gli *hash* possibili è in realtà un numero gigantesco, grande quanto il numero di atomi dell'universo. Ora possiamo impostare il target in modo che solo una piccola frazione di *hash* sia valida. Ciò significa che chiunque voglia trovare un *hash* valido dovrà spendere un'enorme quantità di tempo di calcolo, e quindi di elettricità, per trovare un numero di *hash* più piccolo del nostro target.
 

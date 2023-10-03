@@ -62,8 +62,7 @@ La ricompensa dei blocchi nel 2008 era pari a 50, nel 2012 era pari a 25, nel 20
 
 Tra 50.144 blocchi, o approssimativamente alla fine di maggio 2020, la ricompensa scenderà a 6,25 bitcoin per blocco, portando a un tasso di aumento annuale dell'offerta di circa l'1,8% (N.d.T.: è successo l'11 maggio 2020). Tra dodici anni, a seguito di altri tre dimezzamenti della ricompensa, oltre il 99% di tutti i bitcoin sarà stato estratto e verrà prodotto meno di 1 bitcoin per blocco. È possibile monitorare i progressi del dimezzamento della ricompensa dei blocchi su <bitcoinblockhalf.com>.
 
-![Programma di emissione di Bitcoin](images/controlled-supply.png)
-*https://en.bitcoin.it/w/images/en/4/42/Controlled_supply-supply_over_block_height.png*
+![<https://en.bitcoin.it/w/images/en/4/42/Controlled_supply-supply_over_block_height.png>](images/controlled-supply.png)
 
 Un giorno, intorno all'anno 2140, la ricompensa dei blocchi sparirà del tutto e i minatori saranno incentivati solo dalle commissioni pagate da chi esegue le transazioni.
 
@@ -93,8 +92,7 @@ Se invece ci sono meno persone che minano, si crea il problema opposto:
 
 Il numero totale di *hash* al secondo eseguiti da tutti i minatori della rete Bitcoin viene definito *hash rate*.
 
-![Grafico dei minuti tra i blocchi](images/blocktime.png)
-*Il tempo tra i blocchi varia a seconda dell'hash rate in entrata e in uscita e della casualità.
+![Il tempo tra i blocchi varia a seconda dell'hash rate in entrata e in uscita e della casualità.](images/blocktime.png)
 
 ## Aggiustamento della difficoltà: accordarsi sul target
 
@@ -104,8 +102,7 @@ Come possiamo fare in modo che sia più difficile trovare *hash* validi se più 
 
 Teniamo a mente che il *mining* di Bitcoin è una lotteria in cui si cerca di produrre un numero casuale più piccolo del target:
 
-![hashing](images/hashing-line.png)
-*Stiamo cercando di colpire questo piccolo spazio. Il numero di risultati possibili è estremamente grande, quindi ci vorrà molto tempo per arrivarci attraverso i lanci casuali del dado*.
+![Stiamo cercando di colpire questo piccolo spazio. Il numero di risultati possibili è estremamente grande, quindi ci vorrà molto tempo per arrivarci attraverso i lanci casuali del dado.](images/hashing-line.png)
 
 Bitcoin risolve questo problema con un *aggiustamento della difficoltà di estrazione*. Poiché tutti eseguono lo stesso codice, che applica le stesse regole, e tutti hanno una copia dell'intera storia dei blocchi fino a questo momento, ognuno può calcolare in modo indipendente quanto velocemente vengono prodotti i blocchi.
 
@@ -117,12 +114,11 @@ Ora possiamo regolare il Numero Target in modo che si alzi o si abbassi proporzi
 
 Possiamo aumentare il Numero Target a un numero più alto, creando un intervallo più ampio di *hash* validi, dando ai minatori una maggiore possibilità di trovare un *hash* vincente, spendendo così meno energia per ogni blocco trovato. Questo si chiama *abbassare la difficoltà*.
 
-![Più facile da minare](images/hashing-line-easier.png)
-*Aumentando il target aumenta l'intervallo valido da trovare, quindi è più probabile che si riesca a raggiungerlo con meno tentativi, il che rende più coveniente l'energia consumata*.
+![Aumentando il target aumenta l'intervallo valido da trovare, quindi è più probabile che si riesca a raggiungerlo con meno tentativi, il che rende più coveniente l'energia consumata.](images/hashing-line-easier.png)
 
 In alternativa, possiamo abbassare il Numero Target in modo che meno *hash* siano validi e i minatori debbano spendere più energia per trovare un *hash* valido. Questo si chiama *aumentare la difficoltà*.
 
-![Più difficile da minare](images/hashing-line-harder.png)
+![](images/hashing-line-harder.png)
 
 Ciò significa che per ogni periodo di 2016 blocchi, sappiamo esattamente qual è il Numero Target. Questo ci permette di conoscere la soglia magica sotto della quale il numero di *hash* della prova di lavoro deve scendere per ottenere un biglietto della lotteria vincente per qualsiasi blocco prodotto in quel periodo.
 
@@ -130,8 +126,7 @@ L'aggiustamento della difficoltà e il calcolo del Numero Target sono forse l'in
 
 Il grafico sottostante mostra l'*hash rate* come una linea e la difficoltà come barre nel tempo. La difficoltà ha l'aspetto di una scala perché viene regolata con incrementi di 2016 blocchi. Si può notare che ogni volta che l'*hash rate* sale al di sopra della difficoltà, la difficoltà sale per raggiungerlo. Quando l'*hash rate* diminuisce, come nel periodo ottobre-dicembre 2018, la difficoltà diminuisce. L'aggiustamento della difficoltà è sempre in ritardo rispetto all'*hash rate* all'interno del periodo di difficoltà del blocco 2016 (due settimane).
 
-![Hashrate vs Difficulty](images/hash-rate-difficulty.png)
-*Hash rate vs. Difficoltà
+![*Hash rate vs. Difficoltà](images/hash-rate-difficulty.png)
 
 Poiché c'è un ritardo di 2016 blocchi per l'aggiustamento della difficoltà, è possibile che picchi significativi in alto o in basso nell'*hash rate* producano Bitcoin in eccesso o in difetto durante quel periodo di 2016 blocchi, distorcendo leggermente il programma di emissione.
 

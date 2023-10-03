@@ -14,8 +14,7 @@ Nel capitolo precedente abbiamo mentito un po' per semplificare le cose. Quando 
 2. Un *nonce* casuale.
 3. L'*hash* del blocco precedente che utilizziamo come base della storia del nostro libro mastro.
 
-![hashing](images/inputs-sha256-hash.png)
-*I tre input utilizzati per costruire l'hash della lotteria includono il precedente hash vincente, creando un collegamento fra un blocco e l'altro*.
+![I tre input utilizzati per costruire l'hash della lotteria includono il precedente hash vincente, creando un collegamento fra un blocco e l'altro.](images/inputs-sha256-hash.png)
 
 Questo ci consente di costruire un registro cronologico di ogni blocco partendo dal primo blocco genesi minato da Satoshi. Quando scriviamo un nuovo blocco nella catena, dobbiamo verificare che questo blocco non contenga transazioni che spendono bitcoin già spesi nei blocchi precedenti.
 
@@ -45,8 +44,7 @@ Nei successivi dieci minuti circa, verrà estratto un altro blocco. Nel codice d
 
 Supponiamo che i cinesi estraggano il blocco successivo. La loro catena è ora un blocco avanti rispetto a quella americana e contiene più prove di lavoro totali. Quando trasmetteranno questa scoperta, i nodi americani riconosceranno che i nodi cinesi hanno prodotto una catena Proof of Work cumulativa più pesante e si riorganizzeranno (o *reorg*, N.d.T.: abbreviato dall'inglese *reorganization*). Ciò significa che scarteranno il blocco che hanno estratto a favore dei due blocchi cinesi.
 
-![Chain split](images/longest-chain.png)
-*Una scissione della catena è un processo naturale che si verifica quando due minatori trovano un blocco nello stesso momento. La catena che diventa più pesante in base alla totale prova di lavoro è valida, e l'altro blocco diventa orfano.*
+![Una scissione della catena è un processo naturale che si verifica quando due minatori trovano un blocco nello stesso momento. La catena che diventa più pesante in base alla totale prova di lavoro è valida, e l'altro blocco diventa orfano.](images/longest-chain.png)
 
 Il blocco americano è ora chiamato *orfano*. Poiché è stato rifiutato, il minatore che l'ha estratto non ha ricevuto la sua ricompensa e nessuna delle transazioni in quel blocco è stata inserita nel libro mastro. Tuttavia, le transazioni rifiutate non sono andate perse. Alcune potrebbero essere state inserite nel blocco cinese concorrente, mentre le altre saranno scritte in un blocco futuro.
 
