@@ -26,7 +26,7 @@ Nonostante le *mining pool* relativamente centralizzate siano una realtà odiern
 
 ## Attacchi del 51%
 
-La centralizzazione delle *mining pool* fa temere che alcune delle più importanti possano accordarsi per attaccare il 51% della rete. Oggi, le primi 5 *pool* identificabili detengono insieme più del 50% dellì*hash rate* totale. Esaminiamo come si svolge un attacco di questo tipo e quali pericoli comporta. 
+La centralizzazione delle *mining pool* fa temere che alcune delle più importanti possano accordarsi per attaccare il 51% della rete. Oggi, le prime 5 *pool* identificabili detengono insieme più del 50% dell'*hash rate* totale. Esaminiamo come si svolge un attacco di questo tipo e quali pericoli comporta. 
 
 Quando si possiede poco più del 50% dell'*hash rate*, si può controllare la scrittura nel libro mastro perché si può produrre una catena più pesante delle altre nel tempo. Ricordati che il *Nakamoto Consensus* dice che i nodi devono accettare la catena di prove di lavoro cumulativa più pesante di cui vengono a conoscenza.
 

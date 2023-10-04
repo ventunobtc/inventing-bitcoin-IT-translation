@@ -26,14 +26,14 @@ Donazioni: https://getalby.com/p/loop
 | Capitolo | Titolo                                                       | Titolo Originale           |
 | -------- | ------------------------------------------------------------ | -------------------------- |
 | 1        | [Che cos'è Bitcoin?](chapters/ch001-what-is-bitcoin.md) | What is Bitcoin? |
-| 2        | [Eliminare l'intermediario](chapters/ch002-removing-the-middleman.md) | Removing the Middleman |
-| 3        | [Prova di lavoro](chapters/ch003-proof-of-work.md) | Proof of Work |
+| 2        | [Eliminare l'Intermediario](chapters/ch002-removing-the-middleman.md) | Removing the Middleman |
+| 3        | [Prova di Lavoro](chapters/ch003-proof-of-work.md) | Proof of Work |
 | 4        | [Mining](chapters/ch004-mining.md) | Mining |
-| 5        | [Proteggere il libro mastro](chapters/ch005-securing-the-ledger.md) | Securing The Ledger |
-| 6        | [Fork e attacchi 51%](chapters/ch006-forks-and-51%-attacks.md) | Forks and 51% Attacks |
-| 7        | [Conti senza identità](chapters/ch007-accounts-without-identity.md) | Accounts Without Identity |
-| 8        | [Chi fa le regole?](chapters/ch008-who-makes-the-rules.md) | Who Makes the Rules? |
-| 9        | [Che cosa accadrà in futuro](chapters/ch009-whats-next.md) | What's Next |
+| 5        | [Proteggere il Libro Mastro](chapters/ch005-securing-the-ledger.md) | Securing The Ledger |
+| 6        | [Fork e Attacchi 51%](chapters/ch006-forks-and-51%-attacks.md) | Forks and 51% Attacks |
+| 7        | [Conti senza Identità](chapters/ch007-accounts-without-identity.md) | Accounts Without Identity |
+| 8        | [Chi fa le Regole?](chapters/ch008-who-makes-the-rules.md) | Who Makes the Rules? |
+| 9        | [Cosa accadrà in Futuro](chapters/ch009-whats-next.md) | What's Next |
 | 10       | [Ringraziamenti](chapters/ch010-acknowledgments.md) | Acknowledgments |
-| 11       | [Informazioni sull'autore](chapters/ch011-about-the-author.md) | About the Author |
+| 11       | [Informazioni sull'Autore](chapters/ch011-about-the-author.md) | About the Author |
 | 12       | [Note](chapters/ch012-notes.md) |  |

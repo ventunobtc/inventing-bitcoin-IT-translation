@@ -1,4 +1,4 @@
-# Proteggere il libro mastro
+# Proteggere il Libro Mastro
 
 Finora abbiamo parlato di come riuscire a mantenere copie e scrivere su un libro mastro distribuito senza consentire fenomeni di coercizione o corruzione, utilizzando un sistema basato su una lotteria e la verifica mediante consenso.
 
@@ -20,7 +20,7 @@ Questo ci consente di costruire un registro cronologico di ogni blocco partendo 
 
 Se un qualsiasi input dell'*hash* cambia, l'*hash* in uscita cambia in modo imprevedibile e radicale. Se si manomettono i dati di un blocco passato, si modifica l'*hash*. Ma dato che quell'*hash* è stato utilizzato come input per i blocchi successivi, così facendo si modificheranno anche gli *hash* di tali blocchi. L'*hash* dell'ultimo blocco della catena, essendo collegato a tutti gli *hash* precedenti, funge da impronta digitale dell'intera storia della catena fino a quel momento!
 
-Non è possibile falsificare la prova di lavoro, poiché tutti sanno quanta energia deve essere consumata in ogni blocco in base al Numero Target richiesto per quel blocco. Se qualcuno cercasse di modificare un vecchio blocco presente nella catena, dovrebbe ricalcolare l'*hash* della prova di lavoro del blocco che sta manomettendo e di ogni singolo blocco successivo. La *block chain* non è soltanto a prova di manomissione, ma è anche *estremamente costosa* da manomettere.
+Non è possibile falsificare la prova di lavoro, poiché tutti sanno quanta energia deve essere consumata in ogni blocco in base al *target* richiesto per quel blocco. Se qualcuno cercasse di modificare un vecchio blocco presente nella catena, dovrebbe ricalcolare l'*hash* della prova di lavoro del blocco che sta manomettendo e di ogni singolo blocco successivo. La *block chain* non è soltanto a prova di manomissione, ma è anche *estremamente costosa* da manomettere.
 
 Ogni nuovo blocco minato aumenta la sicurezza dei blocchi che lo hanno preceduto, poiché aumenta la quantità di elettricità necessaria per ricalcolare gli *hash* delle prove di lavoro della catena fino a quel momento. Una transazione in un blocco che è "sepolta" sotto 6 blocchi successivi è considerata definitiva dalla maggior parte dei commercianti. Ci vorrebbe un'enorme quantità di energia per ricalcolare l'*hash* degli ultimi sei blocchi all'*hash rate* totale odierno. E una sepolta sotto 100 blocchi? Fuori discussione.
 

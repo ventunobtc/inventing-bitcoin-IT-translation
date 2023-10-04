@@ -2,15 +2,15 @@
 
 Bitcoin è un *sistema di contante elettronico peer to peer*, una nuova forma di denaro digitale che può essere trasferito tra persone o computer senza alcun intermediario fidato (come una banca) e la cui emissione non è sotto il controllo di una singola entità.
 
-Pensa a un dollaro di carta o una moneta fisica di metallo. Quando dai quel denaro a un'altra persona, questa non ha bisogno di sapere chi sei. Deve solo fidarsi che il denaro che riceve da te non sia falso. Con il denaro fisico, di solito, le persone lo fanno semplicemente con gli occhi e le dita, oppure utilizzando speciali apparecchiature di verifica nel caso di importi più consistenti.
+Pensa a un dollaro di carta o una moneta fisica di metallo. Quando dai quel denaro a un'altra persona, questa non ha bisogno di sapere chi sei. Deve solo fidarsi che il denaro che riceve da te non sia falso. Con il denaro fisico, di solito, le persone lo fanno semplicemente con la vista e il tatto, oppure utilizzando speciali apparecchiature di verifica nel caso di importi più consistenti.
 
 Da quando siamo diventati una società digitale, la maggior parte dei pagamenti viene effettuata su Internet tramite un servizio di intermediazione: una società di carte di credito come Visa, un gestore di pagamenti digitali come PayPal o Apple Pay, o una piattaforma online come WeChat in Cina.
 
 Il passaggio ai pagamenti digitali comporta la dipendenza da un attore centrale che deve approvare e verificare ogni pagamento. Questo perché la natura del denaro è cambiata da un oggetto fisico che si può trasportare, trasferire e verificare da soli, a bit digitali che devono essere memorizzati e verificati da una terza parte che ne controlla il trasferimento.
 
-Quando rinunciamo al contante in cambio di comodi pagamenti digitali, creiamo anche un sistema in cui diamo poteri straordinari a coloro che potrebbero cercare di opprimerci. Le piattaforme di pagamento digitale sono diventate la base dei sistemi di controllo autoritari e distopici, come quelli utilizzati dal governo cinese per monitorare i dissidenti e impedire ai cittadini il cui comportamento non è gradito di acquistare beni e servizi.
+Quando rinunciamo al contante in cambio di comodi pagamenti digitali, creiamo anche un sistema in cui diamo poteri straordinari a coloro che potrebbero cercare di opprimerci. Le piattaforme di pagamento digitale sono diventate la base dei sistemi di controllo autoritari e distopici, come quelli utilizzati dal governo cinese per monitorare i dissidenti e impedire ai cittadini, il cui comportamento non è gradito, di acquistare beni e servizi.
 
-Bitcoin offre un'alternativa al denaro digitale controllato a livello centrale grazie a un sistema che ci restituisce la stessa possibilità di transare da persona a persona del contante, ma in forma digitale:
+Bitcoin offre un'alternativa al denaro digitale controllato a livello centrale, grazie a un sistema che restituisce la stessa possibilità di scambiare da persona a persona del contante, ma in forma digitale:
 
 1. Un bene digitale (tipicamente *bitcoin* con la *b* minuscola) la cui offerta è limitata, conosciuta fin dall'inizio e immutabile. Questo è in netto contrasto con le banconote e le loro versioni digitali emesse da governi e banche centrali, la cui offerta si espande a un ritmo imprevedibile.
 2. Un gruppo di computer interconnessi (la *rete Bitcoin*), a cui chiunque può aderire eseguendo un software. Questa rete serve a emettere bitcoin, tracciarne il possesso e trasferirli tra i partecipanti senza dover ricorrere a intermediari come banche, società di pagamento ed enti governativi.
@@ -22,7 +22,7 @@ Nella prossima sezione approfondiremo le motivazioni alla base di Bitcoin.
 
 ## Come è nato?
 
-Bitcoin è stato inventato da una persona o un gruppo noto con lo pseudonimo di Satoshi Nakamoto intorno al 2008. Nessuno conosce l'identità di questa persona o di questo gruppo, e per quanto ne sappiamo, sono spariti e non se ne hanno notizie da anni.
+Bitcoin è stato inventato da una persona, o un gruppo, noto con lo pseudonimo di Satoshi Nakamoto intorno al 2008. Nessuno conosce l'identità di questa persona, o di questo gruppo, e per quanto ne sappiamo, è sparito e non se ne hanno notizie da anni.
 
 L'11 febbraio 2009, Satoshi ha scritto di una prima versione di Bitcoin su un forum online per *cypherpunks*, persone che lavorano su crittografia e si dedicano alla privacy e alla libertà individuale. Sebbene questo non sia il primo annuncio ufficiale del rilascio di Bitcoin, contiene un buon riassunto delle motivazioni di Satoshi, quindi lo useremo per gettare le basi della nostra discussione.
 
@@ -66,7 +66,7 @@ Internet, e di fatto la maggior parte dei sistemi informatici moderni, sono cost
 
 > Dobbiamo affidare \[alle banche\] la nostra privacy, sperando che non lascino che i ladri di identità prosciughino i nostri conti correnti.
 
-Rispetto al tuo conto corrente, sistema di pagamento digitale o carta di credito, Bitcoin consente a due parti di effettuare transazioni senza rivelare alcuna informazione sulla propria identità. Gli archivi centralizzati di dati dei consumatori memorizzati presso banche, società di carte di credito, gestori di pagamenti e governi, costituiscono delle immense e preziosissime prede per gli hacker. A riprova della tesi di Satoshi, nel 2017 Equifax è statafortemente compromessa, rivelando agli hacker le identità e i dati finanziari di oltre 140 milioni di persone.
+Rispetto al tuo conto corrente, sistema di pagamento digitale o carta di credito, Bitcoin consente a due parti di effettuare transazioni senza rivelare alcuna informazione sulla propria identità. Gli archivi centralizzati di dati dei consumatori memorizzati presso banche, società di carte di credito, gestori di pagamenti e governi, costituiscono delle immense e preziosissime prede per gli hacker. A riprova della tesi di Satoshi, nel 2017 Equifax è stata fortemente compromessa, rivelando agli hacker le identità e i dati finanziari di oltre 140 milioni di persone.
 
 Bitcoin separa le transazioni finanziarie dalle identità del mondo reale. Dopotutto, quando diamo del contante fisico a qualcuno, non è necessario che sappia chi siamo, né dobbiamo preoccuparci che dopo il nostro scambio costui possa usare alcune informazioni che gli abbiamo dato per rubarci del denaro. Perché non dovremmo aspettarci lo stesso, o addirittura di meglio, dal denaro digitale?
 
@@ -74,9 +74,9 @@ Bitcoin separa le transazioni finanziarie dalle identità del mondo reale. Dopot
 
 Il termine *fiat*, che in latino significa "che sia fatto", si riferisce alla moneta emessa dal governo e dalla banca centrale e decretata come moneta a corso legale dal governo stesso. Storicamente, il denaro veniva creato da oggetti difficili da produrre, facili da verificare e da trasportare, come conchiglie, perle di vetro, argento e oro. Ogni volta che qualcosa veniva usato come denaro, c'era la tentazione di crearne di più. Se qualcuno si presentava con una tecnologia superiore per creare rapidamente ingenti quantità di qualcosa, quella perdeva valore. È così che i coloni europei sono stati in grado di spogliare il continente africano della sua ricchezza, scambiando perle di vetro facili da produrre con schiavi umani difficili da reperire. Questo è il motivo per cui l'oro è stato considerato una moneta così buona per così tanto tempo: era difficile produrne di più rapidamente.[[1]](ch010-notes.md#l1) <a name="r1"></a>
 
-Siamo passati lentamente da un'economia mondiale che utilizzava l'oro come moneta a un'economia in cui i certificati cartacei venivano emessi per rivendicare l'oro. Alla fine, la carta fu completamente separata da qualsiasi supporto fisico dai Nixon, che, pose fine alla convertibilità internazionale del dollaro statunitense in oro nel 1971.
+Siamo passati lentamente da un'economia mondiale che utilizzava l'oro come moneta a un'economia in cui i certificati cartacei venivano emessi per rivendicare l'oro. Alla fine, la carta fu completamente separata da qualsiasi supporto fisico da Nixon, che, pose fine alla convertibilità internazionale del dollaro statunitense in oro nel 1971.
 
-La fine del gold standard permise ai governi e alle banche centrali di aumentare a piacimento l'offerta di moneta, diluendo il valore di ogni banconota in circolazione, con la cosiddetta *svalutazione*. Sebbene la pura moneta fiat, emessa dai governi e riscattabile in cambio di nulla, sia il denaro che tutti noi conosciamo e utilizziamo quotidianamente, di fatto si tratta di un esperimento relativamente nuovo nell'ambito della storia mondiale.
+La fine del gold standard permise ai governi e alle banche centrali di aumentare a piacimento l'offerta di moneta, diluendo il valore di ogni banconota in circolazione con la cosiddetta *svalutazione*. Sebbene la pura moneta fiat, emessa dai governi e riscattabile in cambio di nulla sia il denaro che tutti noi conosciamo e utilizziamo quotidianamente, di fatto si tratta di un esperimento relativamente nuovo nell'ambito della storia mondiale.
 
 Dobbiamo fidarci che i nostri governi non abusino della loro stampante di denaro, ma non dobbiamo guardare molto indietro per trovare esempi di *violazioni di questa fiducia*. Nei regimi autocratici e pianificati centralmente, dove il governo ha il controllo diretto sul sistema monetario, come nel caso del Venezuela, la moneta è diventata quasi priva di valore. Il Bolivar venezuelano è passato da 2 Bolivar per dollaro statunitense nel 2009 a 250.000 Bolivar per dollaro statunitense nel 2019. Mentre scrivo questo libro, il Venezuela è al collasso a causa della pessima gestione dell'economia da parte del suo governo.
 
@@ -86,7 +86,7 @@ Prima di Bitcoin, non era possibile impedire che un bene digitale venisse riprod
 
 Bitcoin è il primo sistema digitale che implementa la scarsità senza intermediari ed è il primo bene conosciuto dall'umanità la cui offerta immutabile e il programma di emissione sono perfettamente noti in anticipo. Nemmeno i metalli preziosi come l'oro hanno questa proprietà, poiché possiamo continuare a estrarre sempre più oro se è redditizio farlo. Immagina di scoprire un asteroide contenente una quantità d'oro dieci volte superiore a quella che abbiamo sulla Terra. Cosa succederebbe al prezzo dell'oro in presenza di un'offerta così abbondante? Bitcoin è immune da tali scoperte e manipolazioni dell'offerta. È semplicemente impossibile produrne di più, e spiegheremo perché nei capitoli successivi.
 
-La natura del denaro e il funzionamento del sistema monetario esistente sono intricati, e questo libro non li tratterà in modo approfondito. Se volete saperne di più sui principi fondamentali del denaro applicati a Bitcoin, ti consiglio di partire dalla lettura de *Il Bitcoin Standard* di Saifedean Ammous.
+La natura del denaro e il funzionamento del sistema monetario esistente sono intricati, e questo libro non li tratterà in modo approfondito. Se vuoi saperne di più sui principi fondamentali del denaro applicati a Bitcoin, ti consiglio di partire dalla lettura de *Il Bitcoin Standard* di Saifedean Ammous.
 
 > I dati potevano essere protetti in modo tale da rendere fisicamente impossibile l'accesso da parte di terzi, per qualsiasi motivo, a prescindere dalla scusa, senza eccezioni. \[...\] È il momento di fare la stessa cosa per il denaro.
 
@@ -108,7 +108,7 @@ Il concetto di *rete* si riferisce all'idea che un gruppo di computer sia interc
 
 In un sistema senza controllo centrale, è importante sapere che nessuno stia imbrogliando. L'idea della *doppia spesa* si riferisce alla possibilità di spendere lo stesso denaro due volte. Questo non è un problema con il denaro fisico, perché passa da una mano all'altra quando lo si spende. Le transazioni digitali, invece, possono essere copiate proprio come la musica o i film. Quando si invia denaro attraverso una banca, questa si prende cura del fatto che lo stesso denaro non venga spostato due volte. In un sistema senza controllo centrale, abbiamo bisogno di un modo per prevenire questo tipo di *doppia spesa*, che di fatto equivale a falsificare il denaro.
 
-Satoshi spiega che i partecipanti alla rete Bitcoin collaborano per *timestampare* (mettere in ordine temporale) le transazion in modo da conoscere quale sia stata la prima, così da poter respingere qualsiasi tentativo futuro di spendere nuovamente lo stesso denaro. Nei prossimi capitoli costruiremo questo sistema dalle fondamenta. Questo ci permetterà di individuare le falsificazioni senza affidarci a un emittente centrale o un validatore di transazioni.
+Satoshi spiega che i partecipanti alla rete Bitcoin collaborano per *timestampare* (mettere in ordine temporale) le transazioni in modo da conoscere quale sia stata la prima, così da poter respingere qualsiasi tentativo futuro di spendere nuovamente lo stesso denaro. Nei prossimi capitoli costruiremo questo sistema dalle fondamenta. Questo ci permetterà di individuare le falsificazioni senza affidarci a un emittente centrale o un validatore di transazioni.
 
 ***
 

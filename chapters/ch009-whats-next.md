@@ -1,4 +1,4 @@
-# Cosa accadrà in futuro?
+# Cosa accadrà in Futuro?
 
 ## Bitcoin è il MySpace delle cripto?
 
@@ -6,9 +6,9 @@ Perché ho scritto un libro su Bitcoin quando avrei potuto scrivere sull'ecosist
 
 Queste domande vengono spesso poste da chi non conosce Bitcoin. Dopo aver compreso le basi del suo funzionamento, la domanda successiva tende a essere: "La tecnologia *block chain* sembra interessante. Come facciamo a sapere che non arriverà una versione migliore che trasformerà Bitcoin nel MySpace delle cripto?"
 
-Un fossato è un vantaggio competitivo costruito da un'azienda per impedire ai nuovi arrivati di competere con essa facilmente. Per MySpace questo fossato era costituito dall'enorme base di utenti interconnessi da relazioni di amicizia. Gli utenti non avrebbero iniziato a usare servizi concorrenti se i loro amici non fossero già stati presenti anche lì. Ma per quanto ampio fosse il fossato di un social network ben interconnesso, questo non è stato sufficiente a impedire a Facebook di divorarsi completamente MySpace nell'arco di pochi anni.
+Un *moat* (N.d.T.: termine utilizzato spesso in alcune lettere di Warren Buffett agli azionisti di Berkshire Hathaway) è un vantaggio competitivo costruito da un'azienda per impedire ai nuovi arrivati di competere con essa facilmente. Per MySpace questo vantaggio era costituito dall'enorme base di utenti interconnessi da relazioni di amicizia. Gli utenti non avrebbero iniziato a usare servizi concorrenti se i loro amici non fossero già stati presenti anche lì. Ma per quanto ampio fosse il *moat* di un social network ben interconnesso, questo non è stato sufficiente a impedire a Facebook di divorarsi completamente MySpace nell'arco di pochi anni.
 
-Il fossato di Bitcoin è molto, molto più grande di quello di MySpace. Per capirlo, esaminiamo cosa servirebbe a un concorrente di Bitcoin per scalzarlo.
+Il vantaggio competitivo di Bitcoin è molto, molto più grande di quello di MySpace. Per capirlo, esaminiamo cosa servirebbe a un concorrente di Bitcoin per scalzarlo.
 
 **Essere un denaro più vendibile e liquido**
 

@@ -1,4 +1,4 @@
-# Eliminare l'intermediario
+# Eliminare l'Intermediario
 
 Nel capitolo precedente abbiamo detto che Bitcoin offre un sistema *peer to peer* per trasferire valore. Prima di approfondire il funzionamento di questo sistema, dobbiamo capire come una banca tradizionale o una società specializzata in pagamenti si occupi di tracciare la proprietà e i trasferimenti di beni.
 
@@ -8,7 +8,7 @@ Come funziona un pagamento digitale effettuato dalla vostra banca, da PayPal o d
 
 Lo scopo di una banca è quello di conservare i tuoi depositi e di custodirli. Ma al giorno d'oggi i depositi sono principalmente elettronici, e non più monete o carta. Di conseguenza, il compito di una banca è ora quello di mantenere e custodire un database di conti. Poiché i dati sono elettronici, anche le guardie di sicurezza sono per lo più elettroniche. Le banche utilizzano software per il rilevamento delle intrusioni, backup per prevenire la perdita di dati, audit di terzi per assicurarsi che i loro processi interni non siano compromessi e assicurazioni per cautelarsi nel caso in cui qualcosa vada storto.
 
-Ecco come funzionano. In questo esempio, diremo *banca* ma in realtà con questo termine intendiamo qualsiasi altro soggetto che gestisce pagamenti. Partiamo da un registro dei conti che mostra che Alice e Bob hanno depositato del denaro presso la banca.
+Ecco come funzionano. In questo esempio diremo *banca* ma, in realtà, con questo termine intendiamo qualsiasi altro soggetto che gestisce pagamenti. Partiamo da un registro dei conti che mostra che Alice e Bob hanno depositato del denaro presso la banca.
 
 > Libro mastro della banca
 > 
@@ -20,7 +20,7 @@ Quando Alice vuole inviare €2 a Bob, chiama la sua banca o utilizza un conto w
 > Libro mastro della banca
 > 
 > 1. Alice: Credito per deposito di contanti +€2
-> 2. Bob: Credito per deposito di contanti +$€0
+> 2. Bob: Credito per deposito di contanti +€10
 > 3. Alice: Addebito -€2
 > 4. Bob: Credito +€2
 
@@ -52,7 +52,7 @@ Ora che non abbiamo un intermediario, come faremo a gestire le doppie spese? Chi
 
 Se Alice cercasse di spendere nuovamente i 2 euro che ha già inviato a Bob, la sua transazione verrebbe rifiutata da tutti i membri della rete, poiché questi consulterebbero i loro libri mastri e le direbbero che, secondo i loro registri, ha già speso quel denaro. Pertanto, non registrerebbero il suo secondo tentativo di spendere denaro già speso. Ora abbiamo una rete di consenso *peer to peer* per registrare il possesso e il trasferimento di fondi.
 
-Finché il nostro libro mastro distribuito richiede um *permesso* di adesione, e possiamo *fidarci* che ogni parte sia onesta, il sistema funziona. Ma questo tipo di progetto non può essere utilizzato da milioni di persone in tutto il mondo. I sistemi distribuiti composti da partecipanti arbitrari sono intrinsecamente inaffidabili. Alcune persone potrebbero occasionalmente andare offline. Ciò significa che potrebbero non venire a conoscenza delle nostre transazioni quando le trasmettiamo. Altri potrebbero cercare attivamente di frodarci dicendo che certe transazioni sono avvenute o non sono avvenute. Nuove persone possono unirsi alla rete e ottenere copie contrastanti del libro mastro.
+Finché il nostro libro mastro distribuito richiede un *permesso* di adesione, e possiamo *fidarci* che ogni parte sia onesta, il sistema funziona. Ma questo tipo di progetto non può essere utilizzato da milioni di persone in tutto il mondo. I sistemi distribuiti composti da partecipanti arbitrari sono intrinsecamente inaffidabili. Alcune persone potrebbero occasionalmente andare offline. Ciò significa che potrebbero non venire a conoscenza delle nostre transazioni quando le trasmettiamo. Altri potrebbero cercare attivamente di frodarci dicendo che certe transazioni sono avvenute o non sono avvenute. Nuove persone possono unirsi alla rete e ottenere copie contrastanti del libro mastro.
 
 Vediamo come qualcuno potrebbe cercare di imbrogliare.
 
@@ -84,7 +84,7 @@ Una soluzione ingenua è semplicemente quella di nominare dei custodi onesti del
 
 Così, ogni volta che dobbiamo elaborare una transazione, invece di dirlo a tutti i nostri amici, chiamiamo Carlotta e la sua banda. Sono felici di gestire il libro mastro per noi, dietro pagamento di un piccolo compenso. Dopo aver scritto sul libro mastro, chiamano tutti gli altri e li comunicano le nuove voci del libro mastro, che tutti conservano come backup.
 
-Questo sistema funziona molto bene, ma un giorno arrivano degli agenti governativi che vogliono sapere chi gestisce questo sistema finanziario ombra. Arrestano Carlotta e i suoi amici e li portano via, mettendo fine al nostro libro mastro distribuito. Abbiamo tutti dei backup inaffidabili, non possiamo fidarci l'uno dell'altro e non riusciamo a capire quale backup debba essere usato per ricominciare con un nuovo sistema.
+Questo sistema funziona molto bene, ma un giorno arrivano degli agenti governativi che vogliono sapere chi gestisce questo sistema finanziario. Arrestano Carlotta e i suoi amici e li portano via, mettendo fine al nostro libro mastro distribuito. Abbiamo tutti dei backup inaffidabili, non possiamo fidarci l'uno dell'altro e non riusciamo a capire quale backup debba essere usato per ricominciare con un nuovo sistema.
 
 Invece di un completo blocco, il governo può anche minacciare silenziosamente i custodi del nostro libro mastro di andare in prigione se accettano transazioni verso Alice (che è sospettata di vendere droga). Il sistema è ora effettivamente sotto un controllo centrale e non possiamo più chiamarlo permissionless.
 

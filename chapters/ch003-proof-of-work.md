@@ -1,4 +1,4 @@
-# Prova di lavoro
+# Prova di Lavoro
 
 Il sistema della lotteria, così come è stato progettato finora, presenta due problemi principali:
 
@@ -106,14 +106,14 @@ Il sistema della lotteria funziona in questo modo:
 
 1. Alice annuncia di voler inviare €2 a Bob.
 2. Tutti coloro che giocano alla lotteria prendono questa transazione "Alice dà €2 a Bob", aggiungendo alla fine un numero casuale chiamato *nonce* (numero usato una sola volta). Questo serve ad assicurarsi che la stringa che stanno *hashando* sia diversa da quella di chiunque altro, aiutandoli a trovare il numero vincente della lotteria.
-3. Se il numero è inferiore al *Numero Target* (di cui parleremo nel prossimo capitolo), vincono la lotteria.
-4. Se il numero ottenuto è più grande del Numero Target, allora si fa di nuovo l'*hash*, aggiungendo altri nonce casuali: "Alice dà €2 a Bob nonce=12345", poi "Alice dà €2 a Bob nonce=92435", poi "Alice dà €2 a Bob nonce=132849012348092134", e così via, finché il numero di *hash* risultante è più piccolo del Numero Target.
+3. Se il numero è inferiore al numero *target* (di cui parleremo nel prossimo capitolo), vincono la lotteria.
+4. Se il numero ottenuto è più grande del *target*, allora si fa di nuovo l'*hash*, aggiungendo altri nonce casuali: "Alice dà €2 a Bob nonce=12345", poi "Alice dà €2 a Bob nonce=92435", poi "Alice dà €2 a Bob nonce=132849012348092134", e così via, finché il numero di *hash* risultante è più piccolo del Numero Target.
 
-Potrebbero essere necessari molti, molti tentativi per trovare un *hash* inferiore al numero target. Possiamo, infatti, controllare la frequenza con cui qualcuno può vincere alla lotteria controllando la probabilità che trovi un numero vincente. Se ci sono 1000 *hash* possibili e impostiamo il numero target a 100, quale percentuale di *hash* è inferiore al target?
+Potrebbero essere necessari molti, molti tentativi per trovare un *hash* inferiore al numero *target*. Possiamo, infatti, controllare la frequenza con cui qualcuno può vincere alla lotteria controllando la probabilità che trovi un numero vincente. Se ci sono 1000 *hash* possibili e impostiamo il *target* a 100, quale percentuale di *hash* è inferiore a esso?
 
 Questa è matematica di base: 100 su 1000 numeri possibili o 100/1000 = 10% degli *hash* sono inferiori all'obiettivo. Quindi, se si esegue l'*hash* di una stringa qualsiasi e la funzione produce 1000 risultati diversi, ci si aspetta di ottenere un *hash* inferiore all'obiettivo di 100 circa il 10% delle volte.
 
-La lotteria funziona così: ci accordiamo su un Numero Target, poi prendiamo tutte le transazioni che ci vengono segnalate e le sottoponiamo alla funzione di *hash*, aggiungendo un *nonce* casuale alla fine. Una volta che qualcuno trova un *hash* inferiore al valore obiettivo, lo annunciamo a tutti i membri della rete:
+La lotteria funziona così: ci accordiamo su un numero *target*, poi prendiamo tutte le transazioni che ci vengono segnalate e le sottoponiamo alla funzione di *hash*, aggiungendo un *nonce* casuale alla fine. Una volta che qualcuno trova un *hash* inferiore al valore obiettivo, lo annunciamo a tutti i membri della rete:
 
 > Ciao a tutti:
 > 
@@ -128,6 +128,6 @@ Poiché ho fornito loro sia i dati di input (transazioni e *nonce*) sia l'output
 
 ![Possiamo pensare all'hashing come al lancio di un dado gigante che produce numeri da zero al numero di atomi dell'universo in base ai dati di input composti dalle transazioni. Solo gli hash inferiori al target vincono la lotteria e bisogna dimostrare quali dati sono stati utilizzati per produrre l'hash.](images/hashing-line.png)
 
-Come si collega tutto questo al consumo di energia? Abbiamo già detto che l'insieme di tutti gli *hash* possibili è in realtà un numero gigantesco, grande quanto il numero di atomi dell'universo. Ora possiamo impostare il target in modo che solo una piccola frazione di *hash* sia valida. Ciò significa che chiunque voglia trovare un *hash* valido dovrà spendere un'enorme quantità di tempo di calcolo, e quindi di elettricità, per trovare un numero di *hash* più piccolo del nostro target.
+Come si collega tutto questo al consumo di energia? Abbiamo già detto che l'insieme di tutti gli *hash* possibili è in realtà un numero gigantesco, grande quanto il numero di atomi dell'universo. Ora possiamo impostare il *target* in modo che solo una piccola frazione di *hash* sia valida. Ciò significa che chiunque voglia trovare un *hash* valido dovrà spendere un'enorme quantità di tempo di calcolo, e quindi di elettricità, per trovare un numero di *hash* più piccolo del nostro *target*.
 
-Più piccolo è lil target, più tentativi saranno necessari per trovare un numero valido. Più grande è il target, più velocemente possiamo trovare un *hash* vincente. Se le probabilità di centrare l'obiettivo sono di un milione a 1, dimostrando di averlo centrato, dimostriamo anche di aver eseguito circa un milione di calcoli.
+Più piccolo è il *target*, più tentativi saranno necessari per trovare un numero valido. Più grande è il *target*, più velocemente possiamo trovare un *hash* vincente. Se le probabilità di centrare l'obiettivo sono di un milione a 1, dimostrando di averlo centrato, dimostriamo anche di aver eseguito circa un milione di calcoli.
