@@ -112,7 +112,7 @@ Satoshi spiega che i partecipanti alla rete Bitcoin collaborano per *timestampar
 
 ***
 
-Bitcoin non è stata un'invenzione fatta dal nulla. Nel suo documento, Satoshi ha citato diversi importanti tentativi di implementazione di sistemi simili, tra cui *b-money* di Wei Dai e *Hashcash* di Adam Back. L'invenzione di Bitcoin poggia sulle spalle di giganti, ma nessuno prima di lui aveva messo insieme tutti i pezzi giusti, creando il primo sistema per l'emissione e il trasferimento di una moneta digitale veramente scarsa senza un controllo centrale. 
+Bitcoin non è stata un'invenzione fatta dal nulla. Nel suo documento, Satoshi ha citato diversi importanti tentativi di implementazione di sistemi simili, tra cui *b-money* di Wei Dai e *Hashcash* di Adam Back. L'invenzione di Bitcoin poggia sulle spalle di giganti, ma nessuno prima di lui aveva messo insieme tutti i pezzi giusti, creando il primo sistema per l'emissione e il trasferimento di una moneta digitale veramente scarsa senza un controllo centrale.
 
 Satoshi ha affrontato una serie di interessanti problemi tecnici per risolvere le questioni di privacy, svalutazione e controllo centrale negli attuali sistemi monetari:
 

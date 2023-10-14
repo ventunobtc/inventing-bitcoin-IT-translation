@@ -78,7 +78,7 @@ Riprendiamo l'esempio di 1000 possibili *hash* e un *target* pari a 100. Ciò si
 
 Supponiamo di impiegare 1 secondo per calcolare ogni *hash*. Se ogni secondo "tiriamo il nostro dado" facendo l'*hashing* delle transazioni correnti e del nostro *nonce* casuale, e il 10% delle volte otteniamo un numero inferiore al *target*, allora prevediamo che ci vorranno circa 10 secondi in media per trovare un *hash* valido.
 
-Cosa succede se due computer giocano alla lotteria? La velocità di *hashing* è doppia, quindi ci aspettiamo di trovare un *hash* valido entro 5 secondi. E se a giocare sono 10 computer? Uno di essi troverà un *hash* vincente all'incirca ogni secondo. 
+Cosa succede se due computer giocano alla lotteria? La velocità di *hashing* è doppia, quindi ci aspettiamo di trovare un *hash* valido entro 5 secondi. E se a giocare sono 10 computer? Uno di essi troverà un *hash* vincente all'incirca ogni secondo.
 
 Questo crea un problema: se più persone effettuano *mining*, i blocchi verranno prodotti troppo velocemente. Questo comporta due conseguenze indesiderate:
 
@@ -118,7 +118,7 @@ Possiamo aumentarlo a un numero più alto, creando un intervallo più ampio di *
 
 In alternativa, possiamo abbassarlo in modo che meno *hash* siano validi e i minatori debbano spendere più energia per trovare un *hash* valido. Questo si chiama *aumentare la difficoltà*.
 
-![](images/hashing-line-harder.png)
+![Diminuendo il target diminuisce l'intervallo valido da trovare, quindi è meno probabile raggiungerlo.](images/hashing-line-harder.png)
 
 Ciò significa che per ogni periodo di 2016 blocchi, sappiamo esattamente qual è il *target*. Questo ci permette di conoscere la soglia magica sotto della quale il numero di *hash* della prova di lavoro deve scendere per ottenere un biglietto della lotteria vincente per qualsiasi blocco prodotto in quel periodo.
 
@@ -126,7 +126,7 @@ L'aggiustamento della difficoltà e il calcolo del *target* sono forse l'innovaz
 
 Il grafico sottostante mostra l'*hash rate* come una linea e la difficoltà come barre nel tempo. La difficoltà ha l'aspetto di una scala perché viene regolata con incrementi di 2016 blocchi. Si può notare che ogni volta che l'*hash rate* sale al di sopra della difficoltà, la difficoltà sale per raggiungerlo. Quando l'*hash rate* diminuisce, come nel periodo ottobre-dicembre 2018, la difficoltà diminuisce. L'aggiustamento della difficoltà è sempre in ritardo rispetto all'*hash rate* all'interno del periodo di difficoltà del blocco 2016 (due settimane).
 
-![*Hash rate vs. Difficoltà](images/hash-rate-difficulty.png)
+![Hash rate vs. Difficoltà](images/hash-rate-difficulty.png)
 
 Poiché c'è un ritardo di 2016 blocchi per l'aggiustamento della difficoltà, è possibile che picchi significativi in alto o in basso nell'*hash rate* producano Bitcoin in eccesso o in difetto durante quel periodo di 2016 blocchi, distorcendo leggermente il programma di emissione.
 
@@ -161,9 +161,9 @@ Le commissioni sono determinate da un sistema di libero mercato in cui gli utent
 
 Nei sistemi finanziari tradizionali, le commissioni tendono a basarsi su una percentuale dell'importo trasferito. In Bitcoin, il valore trasferito non ha alcuna influenza sulle commissioni. Le commissioni sono invece proporzionali alla risorsa scarsa che consumano: il *block space* (N.d.T. in italiano *spazio del blocco*). Le commissioni sono misurate in satoshi per byte (8 bit) di spazio consumato. Pertanto, una transazione che invia un milione di bitcoin da una persona a un'altra potrebbe essere più economica di una che divide 1 bitcoin tra 10 destinatari, perché quest'ultima richiede più *block space* per essere rappresentata.
 
-In passato, ci sono stati periodi in cui Bitcoin era molto richiesto, come nel caso della massiccia corsa al rialzo di fine 2017. In quel periodo, le commissioni sono diventate estremamente elevate. Da allora sono state implementate alcune nuove funzionalità per ridurre la pressione delle commissioni sulla rete. 
+In passato, ci sono stati periodi in cui Bitcoin era molto richiesto, come nel caso della massiccia corsa al rialzo di fine 2017. In quel periodo, le commissioni sono diventate estremamente elevate. Da allora sono state implementate alcune nuove funzionalità per ridurre la pressione delle commissioni sulla rete.
 
-Una di queste si chiama *Segregated Witness* (N.d.T.: abbreviato in *SegWit*), che ha riorganizzato il modo in cui vengono rappresentati i dati dei blocchi. Le transazioni che traggono vantaggio da questo aggiornamento possono utilizzare più spazio rispetto a 1MB originariamente previsto come limite per ciascun blocco; ciò avviene grazie ad alcuni accorgimenti tecnici che esulano dallo scopo di questo libro. 
+Una di queste si chiama *Segregated Witness* (N.d.T.: abbreviato in *SegWit*), che ha riorganizzato il modo in cui vengono rappresentati i dati dei blocchi. Le transazioni che traggono vantaggio da questo aggiornamento possono utilizzare più spazio rispetto a 1MB originariamente previsto come limite per ciascun blocco; ciò avviene grazie ad alcuni accorgimenti tecnici che esulano dallo scopo di questo libro.
 
 L'altro alleggerimento delle commissioni è avvenuto grazie al cosiddetto *batching*: gli *exchange* e altri operatori ad alto volume nell'ecosistema hanno iniziato a combinare le transazioni in bitcoin per più utenti in un'unica transazione. A differenza di un pagamento tradizionale in banca o su PayPal, che avviene da una persona a un'altra, una transazione Bitcoin può combinare un gran numero di input e produrre un gran numero di output. In questo modo, un *exchange* che deve inviare bitcoin a 100 persone che hanno fatto un prelievo può farlo in un'unica transazione. Si tratta di un utilizzo molto più efficiente del *block space*, che trasforma quella che apparentemente è solo una manciata di transazioni di bitcoin al secondo in migliaia di pagamenti al secondo.
 

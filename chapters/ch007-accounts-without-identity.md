@@ -32,7 +32,7 @@ In realtà, i numeri degli indirizzi sono numeri giganti a 160 bit. In seguito, 
 
 Quando annuncia la transazione agli altri nodi della rete, rivela la chiave pubblica della cassetta postale da cui sta inviando i fondi e la firma crittografata con la chiave privata. Alice dichiara quanto segue:
 
-- Sto inviando monete dall'indirizzo 12345
+- Sto inviando monete dall'indirizzo 12345.
 - Ecco la chiave pubblica dell'indirizzo 12345, si può vedere che è effettivamente la chiave pubblica facendo l'*hash* della chiave pubblica e vedendo che si ottiene tale indirizzo.
 - Ecco una firma che ho criptato con la chiave privata corrispondente a questo indirizzo. È possibile utilizzare la chiave pubblica per decifrarla e verificare che è identica a quella dei dati della transazione che sto inviando.
 
@@ -44,23 +44,23 @@ A differenza della firma su un assegno o della password bancaria, la firma digit
 
 ## Puoi indovinare una chiave privata?
 
-Calcoliamo le probabilità di indovinare una chiave privata, che ti darebbe la possibilità di spostare le monete dell'indirizzo pubblico corrispondente. Ricordiamo che una chiave è composta da 256 bit. Ogni bit ha solo due valori (uno o zero). Ciò significa che possiamo considerare ogni bit come il risultato del lancio di una moneta. 
+Calcoliamo le probabilità di indovinare una chiave privata, che ti darebbe la possibilità di spostare le monete dell'indirizzo pubblico corrispondente. Ricordiamo che una chiave è composta da 256 bit. Ogni bit ha solo due valori (uno o zero). Ciò significa che possiamo considerare ogni bit come il risultato del lancio di una moneta.
 
 Se avessimo una chiave privata di 1 bit, sarebbe come lanciare una singola moneta. Testa o croce? Uno o zero? Hai una probabilità su due di indovinare.
 
-Breve ripasso di statistica di base: la probabilità che si verifichino più eventi viene calcolata moltiplicando insieme le singole probabilità di ciascun evento. Se il lancio di una moneta ha una probabilità di dare testa pari a 1/2, la probabilità che due lanci di fila diano testa è pari a 1/2 x 1/2 = 1/4 o 1 su 4.
+Breve ripasso di statistica di base: la probabilità che si verifichino più eventi viene calcolata moltiplicando insieme le singole probabilità di ciascun evento. Se il lancio di una moneta ha una probabilità di dare testa pari a $\frac{1}{2}$, la probabilità che due lanci di fila diano testa è pari a $\frac{1}{2}*\frac{1}{2}=\frac{1}{4}$ o 1 su 4.
 
-La probabilità di indovinare l'esito di 8 lanci di fila di una moneta è pari a 2^8, ovvero una su 256.
+La probabilità di indovinare l'esito di 8 lanci di fila di una moneta è pari a $2^8$, ovvero una su 256.
 
-Una targa ha 6 lettere e numeri. Ci sono 26 lettere e 10 numeri, per un totale di 36 caratteri. Il numero di targhe possibili è 36^6, quindi le probabilità di indovinare una targa sono una su due miliardi.[[5]](ch010-notes.md#l2) <a name="r5"></a>
+Una targa ha 6 lettere e numeri. Ci sono 26 lettere e 10 numeri, per un totale di 36 caratteri. Il numero di targhe possibili è $36^6$, quindi le probabilità di indovinare una targa sono una su due miliardi.[[5]](ch010-notes.md#l2) <a name="r5"></a>
 
-Una carta di credito è composta da sedici cifre. Ogni cifra può avere 10 valori, quindi le probabilità di indovinare una carta di credito sono una su 10^16, cioè una su 10.000.000.000.000.000 o circa una su dieci quadrilioni.
+Una carta di credito è composta da sedici cifre. Ogni cifra può avere 10 valori, quindi le probabilità di indovinare una carta di credito sono una su $10^{16}$, cioè una su 10.000.000.000.000.000 o circa una su dieci quadrilioni.
 
-Sulla Terra ci sono circa 10^50 atomi. Se sto pensando a un atomo scelto a caso, le probabilità che hai di indovinarlo sono circa:
+Sulla Terra ci sono circa $10^{50}$ atomi. Se sto pensando a un atomo scelto a caso, le probabilità che hai di indovinarlo sono circa:
 
-> Una su 1.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.
+> Una su 1.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000
 
-Una chiave privata ha 256 bit, ovvero 2^256 o circa 10^77. Indovinare l'intera chiave sarebbe paragonabile a indovinare un atomo specifico dell'intero universo conosciuto oppure a vincere il Superenalotto per 9 volte di seguito:
+Una chiave privata ha 256 bit, ovvero $2^{256}$ o circa $10^{77}$. Indovinare l'intera chiave sarebbe paragonabile a indovinare un atomo specifico dell'intero universo conosciuto oppure a vincere il Superenalotto per 9 volte di seguito:
 
 > Una possibilità su 115.792.089.237.316.195.423.570.985.008.687.907.853.269.984.665.640.564.039.457.584.007.913.129.639.936
 
@@ -70,7 +70,7 @@ Ma cosa accadrebbe se avessi un computer super potente per provare a indovinare?
 > 
 > u/PSBlake su r/Bitcoin
 
-In pratica, è impossibile indovinare la chiave privata di qualcuno. Non solo, ma il numero di possibili indirizzi Bitcoin è così elevato che si consiglia di generare un nuovo indirizzo con una nuova chiave privata per ogni transazione effettuata. Quindi, al posto di un solo conto bancario, potresti avere migliaia o addirittura milioni di conti Bitcoin, uno per ogni transazione che avrai mai ricevuto. 
+In pratica, è impossibile indovinare la chiave privata di qualcuno. Non solo, ma il numero di possibili indirizzi Bitcoin è così elevato che si consiglia di generare un nuovo indirizzo con una nuova chiave privata per ogni transazione effettuata. Quindi, al posto di un solo conto bancario, potresti avere migliaia o addirittura milioni di conti Bitcoin, uno per ogni transazione che avrai mai ricevuto.
 
 Può essere sconcertante che il tuo conto Bitcoin sia protetto solo dal caso, ma spero che la spiegazione di cui sopra renda l'idea che questo sistema è molto più sicuro della password del tuo conto bancario, memorizzata su un server centralizzato e a disposizione degli hacker.
 

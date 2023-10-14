@@ -20,13 +20,13 @@ Tutti i minatori contribuiscono all'estrazione per la *pool*, prendendo così le
 
 Le *mining pool* hanno causato un certo effetto di centralizzazione: gli utenti si sono riversati nelle *pool* più grandi. Tuttavia, è importante ricordare che gli utenti fanno *mining* per le *pool* ed esse non possiedono l'*hash rate* che rappresentano. Gli utenti possono cambiare *mining pool* e tendono a farlo.
 
-In effetti, ci sono precedenti storici di singoli minatori che abbandonano una *pool* troppo potente. Nel 2014, Ghash.io aveva quasi la metà della potenza di *mining* totale. I minatori hanno visto che il *mining* stava diventando troppo centralizzato e hanno volontariamente optato per altre *pool*. 
+In effetti, ci sono precedenti storici di singoli minatori che abbandonano una *pool* troppo potente. Nel 2014, Ghash.io aveva quasi la metà della potenza di *mining* totale. I minatori hanno visto che il *mining* stava diventando troppo centralizzato e hanno volontariamente optato per altre *pool*.
 
 Nonostante le *mining pool* relativamente centralizzate siano una realtà odierna, vengono apportati costanti miglioramenti alla tecnologia di *mining*, tra cui una proposta chiamata BetterHash, che consente ai singoli minatori di avere un maggiore controllo su ciò che estraggono e di ridurre la dipendenza dal coordinamento delle *pool*.
 
 ## Attacchi del 51%
 
-La centralizzazione delle *mining pool* fa temere che alcune delle più importanti possano accordarsi per attaccare il 51% della rete. Oggi, le prime 5 *pool* identificabili detengono insieme più del 50% dell'*hash rate* totale. Esaminiamo come si svolge un attacco di questo tipo e quali pericoli comporta. 
+La centralizzazione delle *mining pool* fa temere che alcune delle più importanti possano accordarsi per attaccare il 51% della rete. Oggi, le prime 5 *pool* identificabili detengono insieme più del 50% dell'*hash rate* totale. Esaminiamo come si svolge un attacco di questo tipo e quali pericoli comporta.
 
 Quando si possiede poco più del 50% dell'*hash rate*, si può controllare la scrittura nel libro mastro perché si può produrre una catena più pesante delle altre nel tempo. Ricordati che il *Nakamoto Consensus* dice che i nodi devono accettare la catena di prove di lavoro cumulativa più pesante di cui vengono a conoscenza.
 

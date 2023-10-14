@@ -1,4 +1,4 @@
-## Introduzione
+# Introduzione
 
 Quando molte persone sentono parlare per la prima volta di Bitcoin, tendono a farsi delle opinioni prima ancora di cercare di capirlo. C'è così tanto rumore là fuori che si può facilmente essere fuorviati su cosa sia Bitcoin e su come funzioni. Fino a tre anni fa, io ero una di queste persone.
 

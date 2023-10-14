@@ -41,7 +41,7 @@ Come fanno i partecipanti a dimostrare di aver consumato questa energia? È nece
 
 ## Hashing
 
-Il puzzle asimmetrico della prova di lavoro di Bitcoin prevede l'utilizzo di una *funzione di hash* (N.d.T.: dal verbo inglese *to hash*: sminuzzare, pasticciare). Grazie all'algebra di base, sappiamo che una funzione è una scatola in cui si inserisce un *input* pari a *x* e si ottiene un *output* pari a *f(x)*. Ad esempio, la funzione *f(x)=2x* prende un valore e lo moltiplica per due. Quindi l'input *x=2* ci dà l'output *f(x)=4*. 
+Il puzzle asimmetrico della prova di lavoro di Bitcoin prevede l'utilizzo di una *funzione di hash* (N.d.T.: dal verbo inglese *to hash*: sminuzzare, pasticciare). Grazie all'algebra di base, sappiamo che una funzione è una scatola in cui si inserisce un *input* pari a $x$ e si ottiene un *output* pari a $f(x)$. Ad esempio, la funzione $f(x)=2x$ prende un valore e lo moltiplica per due. Quindi l'input $x=2$ ci dà l'output $f(x)=4$. 
 
 Una funzione *hash* è una funzione speciale in cui si inserisce una qualsiasi stringa di lettere, numeri o altri dati, come "Hello world", e si ottiene un numero gigantesco dall'aspetto casuale:
 
@@ -64,25 +64,25 @@ La funzione di *hash* sha256 ha le seguenti proprietà che ci risultano utili:
 
 Il sistema numerico che conosci e ami, composto dai numeri da 0 a 9, si chiama *decimale* perché ha dieci cifre. I computer, invece, preferiscono un sistema numerico diverso, fatto di uno e zero, che indica la presenza o l'assenza di un segnale elettrico. Questo sistema numerico è chiamato *binario*. 
 
-Nel sistema decimale, si utilizzano solo le *cifre* da 0 a 9. Se si usa una sola cifra, si possono rappresentare dieci numeri diversi, da 0 a 9. Se si usano due cifre, si possono rappresentare 10 x 10 = 100 numeri diversi: 00, 01, ... fino a 99. Con tre cifre, si possono avere 10 x 10 x 10 = 1000 numeri: 000, 001, ... fino a 999.
+Nel sistema decimale, si utilizzano solo le *cifre* da 0 a 9. Se si usa una sola cifra, si possono rappresentare dieci numeri diversi, da 0 a 9. Se si usano due cifre, si possono rappresentare $10*10=100$ numeri diversi: 00, 01, ... fino a 99. Con tre cifre, si possono avere $10*10*10=1000$ numeri: 000, 001, ... fino a 999.
 
-Spero che si cominci a intravedere la presenza di uno schema. Per capire quanto è grande un numero che possiamo rappresentare con N cifre, moltiplichiamo dieci per se stesso N volte, in altre parole 10^N, o 10 alla potenza di N.
+Spero che si cominci a intravedere la presenza di uno schema. Per capire quanto è grande un numero che possiamo rappresentare con $N$ cifre, moltiplichiamo dieci per se stesso $N$ volte, in altre parole $10^N$, o 10 alla potenza di $N$.
 
 Il sistema binario funziona allo stesso modo. L'unica cosa che cambia è il numero di cifre a nostra disposizione. Anche se siamo abituati al decimale con dieci cifre, una *cifra binaria* o *bit* può avere solo due valori: zero e uno.
 
-Se 1 bit può rappresentare due valori, allora due bit possono rappresentare 4 valori: 00, 01, 10, 11. È possibile calcolare questo valore moltiplicando 2 x 2, poiché ogni cifra può avere due valori. 
+Se 1 bit può rappresentare due valori, allora due bit possono rappresentare 4 valori: 00, 01, 10, 11. È possibile calcolare questo valore moltiplicando $2*2$, poiché ogni cifra può avere due valori. 
 
-Tre bit possono rappresentare 2 x 2 x 2 = 2^3 = 8 valori, che sono 000, 001, 010, 011, 100, 101, 110, 111.
+Tre bit possono rappresentare $2*2*2=2^3=8$ valori, che sono 000, 001, 010, 011, 100, 101, 110, 111.
 
-Un numero *binario* lungo N *bit* può rappresentare 2^N valori diversi.
+Un numero *binario* lungo $N$ *bit* può rappresentare $2^N$ valori diversi.
 
-Pertanto, il numero di valori unici che si possono rappresentare con 256 bit, ossia la dimensione della funzione di *hashing* sha256, è 2^256. È un numero enorme, quasi inconcepibile. Rappresentato in decimale, questo numero è lungo 78 cifre. Per metterlo in prospettiva, è pari al numero stimato degli atomi presenti nell'universo conosciuto.
+Pertanto, il numero di valori unici che si possono rappresentare con 256 bit, ossia la dimensione della funzione di *hashing* sha256, è $2^{256}$. È un numero enorme, quasi inconcepibile. Rappresentato in decimale, questo numero è lungo 78 cifre. Per metterlo in prospettiva, è pari al numero stimato degli atomi presenti nell'universo conosciuto.
 
-> 2^256 = 115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,936
+> $2^{256}$ = 115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,936
 
 Questo è il numero di risultati possibili quando si esegue l'*hash* di qualsiasi stringa con la funzione di *hash* sha256. Pertanto, è effettivamente impossibile prevedere quale sarà il numero prodotto da questa funzione. Sarebbe come prevedere 256 lanci di fila di una moneta o indovinare la posizione di un atomo specifico che ho scelto da qualche parte nell'universo.
 
-Questo numero è troppo lungo per continuare a scriverlo, quindi d'ora in poi diremo solo 2^256, ma spero che questo susciti in te l'immagine mentale di un universo di possibilità.
+Questo numero è troppo lungo per continuare a scriverlo, quindi d'ora in poi diremo solo $2^{256}$, ma spero che questo susciti in te l'immagine mentale di un universo di possibilità.
 
 ## Facciamo l'hash di alcune stringhe
 
@@ -100,7 +100,7 @@ Non c'è modo per nessuno, nemmeno per un computer, di guardare il numero casual
 
 ## Hashing per vincere la lotteria della prova di lavoro
 
-Ora siamo pronti a parlare del momento chiave della magia. Abbiamo detto che ci sono 2^256 possibili valori di output sha256. Per agevolare la comprensione, facciamo finta che ci siano solo 1000 possibili valori di uscita dell'*hash*. 
+Ora siamo pronti a parlare del momento chiave della magia. Abbiamo detto che ci sono $2^{256}$ possibili valori di output sha256. Per agevolare la comprensione, facciamo finta che ci siano solo 1000 possibili valori di uscita dell'*hash*. 
 
 Il sistema della lotteria funziona in questo modo:
 
@@ -111,7 +111,7 @@ Il sistema della lotteria funziona in questo modo:
 
 Potrebbero essere necessari molti, molti tentativi per trovare un *hash* inferiore al numero *target*. Possiamo, infatti, controllare la frequenza con cui qualcuno può vincere alla lotteria controllando la probabilità che trovi un numero vincente. Se ci sono 1000 *hash* possibili e impostiamo il *target* a 100, quale percentuale di *hash* è inferiore a esso?
 
-Questa è matematica di base: 100 su 1000 numeri possibili o 100/1000 = 10% degli *hash* sono inferiori all'obiettivo. Quindi, se si esegue l'*hash* di una stringa qualsiasi e la funzione produce 1000 risultati diversi, ci si aspetta di ottenere un *hash* inferiore all'obiettivo di 100 circa il 10% delle volte.
+Questa è matematica di base: 100 su 1000 numeri possibili o $\frac{100}{1000}$ = 10% degli *hash* sono inferiori all'obiettivo. Quindi, se si esegue l'*hash* di una stringa qualsiasi e la funzione produce 1000 risultati diversi, ci si aspetta di ottenere un *hash* inferiore all'obiettivo di 100 circa il 10% delle volte.
 
 La lotteria funziona così: ci accordiamo su un numero *target*, poi prendiamo tutte le transazioni che ci vengono segnalate e le sottoponiamo alla funzione di *hash*, aggiungendo un *nonce* casuale alla fine. Una volta che qualcuno trova un *hash* inferiore al valore obiettivo, lo annunciamo a tutti i membri della rete:
 
